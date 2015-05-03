@@ -52,12 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileListAdapter.cs" />
-    <Compile Include="FileListFragment.cs" />
-    <Compile Include="FileListRowViewHolder.cs" />
+    <Compile Include="FileList\FileListAdapter.cs" />
+    <Compile Include="FileList\FileListFragment.cs" />
+    <Compile Include="FileList\FileListRowViewHolder.cs" />
     <Compile Include="FilePickerActivity.cs" />
     <Compile Include="RecentFilesActivity.cs" />
-    <Compile Include="Helpers.cs" />
+    <Compile Include="FileList\Helpers.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,6 +70,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\recent_files.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\RecentFileItem.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -94,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Drawable\recent.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

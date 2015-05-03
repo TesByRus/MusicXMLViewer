@@ -53,6 +53,9 @@ namespace com.xamarin.recipes.filepicker
 			// aapt resource value: 0x7f020002
 			public const int ic_launcher = 2130837506;
 			
+			// aapt resource value: 0x7f020003
+			public const int recent = 2130837507;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -66,8 +69,8 @@ namespace com.xamarin.recipes.filepicker
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050006
-			public const int button2 = 2131034118;
+			// aapt resource value: 0x7f050005
+			public const int button2 = 2131034117;
 			
 			// aapt resource value: 0x7f050001
 			public const int details = 2131034113;
@@ -81,8 +84,11 @@ namespace com.xamarin.recipes.filepicker
 			// aapt resource value: 0x7f050004
 			public const int file_picker_text = 2131034116;
 			
-			// aapt resource value: 0x7f050005
-			public const int gridLayout1 = 2131034117;
+			// aapt resource value: 0x7f050006
+			public const int gridLayoutRecentFiles = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int textView1 = 2131034119;
 			
 			// aapt resource value: 0x7f050002
 			public const int titles_fragment = 2131034114;
@@ -108,6 +114,9 @@ namespace com.xamarin.recipes.filepicker
 			
 			// aapt resource value: 0x7f030002
 			public const int recent_files = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int RecentFileItem = 2130903043;
 			
 			static Layout()
 			{
