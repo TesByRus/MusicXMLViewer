@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicXML Viewer</string>
+  <string name="no_files_or_directories">No files or directories</string>
+  <string name="button_file_system_text">Find in file system</string>
+</resources>
