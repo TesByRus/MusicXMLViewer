@@ -85,10 +85,10 @@ namespace com.xamarin.recipes.filepicker
 			public const int file_picker_text = 2131034116;
 			
 			// aapt resource value: 0x7f050006
-			public const int gridLayoutRecentFiles = 2131034118;
+			public const int gridViewRecentFiles = 2131034118;
 			
 			// aapt resource value: 0x7f050007
-			public const int textView1 = 2131034119;
+			public const int textViewRecentFile = 2131034119;
 			
 			// aapt resource value: 0x7f050002
 			public const int titles_fragment = 2131034114;

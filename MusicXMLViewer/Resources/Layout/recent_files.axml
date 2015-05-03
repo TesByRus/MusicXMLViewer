@@ -11,9 +11,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:layout_marginBottom="10px" />
-    <GridLayout
+    <GridView
         android:minHeight="100px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/gridLayoutRecentFiles" />
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:id="@+id/gridViewRecentFiles" />
 </LinearLayout>

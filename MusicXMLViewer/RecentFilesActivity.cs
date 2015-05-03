@@ -25,12 +25,16 @@ namespace com.xamarin.recipes.filepicker
             LoadRecentFilesPath();
 
 
-            GridLayout grid = FindViewById<GridLayout>(Resource.Id.gridLayoutRecentFiles);
-            foreach (var item in _recentOpenedFilePathList)
+            GridView grid = FindViewById<GridView>(Resource.Id.gridViewRecentFiles);
+            //foreach (var item in _recentOpenedFilePathList)
+
+            var tmpList = new List<string>();
+            for (int i = 0; i < RecentFilesCount; i++)
             {
+                tmpList.Add(i.ToString() + " some text");
                 
-                grid.
             }
+            grid.Adapter = new ArrayAdapter(this, Resource.Layout.RecentFileItem, tmpList);
 
             Button but = FindViewById<Button>(Resource.Id.button2);
 
