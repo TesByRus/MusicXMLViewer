@@ -20,7 +20,23 @@ namespace com.xamarin.recipes.filepicker
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.file_explorer);
+            ActionBar.SetHomeButtonEnabled(true);
+            ActionBar.SetDisplayHomeAsUpEnabled(true);
 
         }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    Finish();
+                    return true;
+
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
+        }
+
     }
 }

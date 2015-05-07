@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Android.Content;
 using Android.Util;
+using Android.Views;
 using Android.Widget;
 
 namespace com.xamarin.recipes.filepicker
@@ -17,6 +18,8 @@ namespace com.xamarin.recipes.filepicker
         private List<string> _recentOpenedFilePathList;
         private const int RecentFilesCount = 9;
 
+        private RecentFileAdapter recentFileAdapter;
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -24,20 +27,14 @@ namespace com.xamarin.recipes.filepicker
 
             LoadRecentFilesPath();
 
+            recentFileAdapter = new RecentFileAdapter(this);
+            recentFileAdapter.AddRecentFilesInfo(_recentOpenedFilePathList);
 
             GridView grid = FindViewById<GridView>(Resource.Id.gridViewRecentFiles);
-            //foreach (var item in _recentOpenedFilePathList)
 
-            var tmpList = new List<string>();
-            for (int i = 0; i < RecentFilesCount; i++)
-            {
-                tmpList.Add(i.ToString() + " some text");
-                
-            }
-            grid.Adapter = new ArrayAdapter(this, Resource.Layout.RecentFileItem, tmpList);
+            grid.Adapter = recentFileAdapter;
 
             Button but = FindViewById<Button>(Resource.Id.button2);
-
             but.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(FilePickerActivity));
@@ -54,6 +51,11 @@ namespace com.xamarin.recipes.filepicker
         {
             _recentOpenedFilePathList = new List<string>();
             //TODO подгрузка списка
+
+            for (int i = 0; i < RecentFilesCount; i++)
+            {
+                _recentOpenedFilePathList.Add("some info - some info " + i);
+            }
         }
 
         /// <summary>

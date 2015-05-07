@@ -57,6 +57,8 @@
     <Compile Include="FileList\FileListFragment.cs" />
     <Compile Include="FileList\FileListRowViewHolder.cs" />
     <Compile Include="FilePickerActivity.cs" />
+    <Compile Include="RecentFileAdapter.cs" />
+    <Compile Include="RecentFileItemHolder.cs" />
     <Compile Include="RecentFilesActivity.cs" />
     <Compile Include="FileList\Helpers.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />

@@ -56,6 +56,7 @@ namespace com.xamarin.recipes.filepicker
             RefreshFilesList(DefaultInitialDirectory);
         }
 
+
         public void RefreshFilesList(string directory)
         {
             IList<FileSystemInfo> visibleThings = new List<FileSystemInfo>();
