@@ -26,6 +26,8 @@ namespace com.xamarin.recipes.filepicker
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Resource.String.ApplicationName = global::com.xamarin.recipes.filepicker.Resource.String.ApplicationName;
+			global::SQLite.Resource.String.Hello = global::com.xamarin.recipes.filepicker.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -131,14 +133,23 @@ namespace com.xamarin.recipes.filepicker
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040001
+			public const int ApplicationName = 2130968577;
+			
 			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			public const int Hello = 2130968576;
 			
 			// aapt resource value: 0x7f040002
-			public const int button_file_system_text = 2130968578;
+			public const int app_name = 2130968578;
 			
-			// aapt resource value: 0x7f040001
-			public const int no_files_or_directories = 2130968577;
+			// aapt resource value: 0x7f040004
+			public const int button_file_system_text = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int no_files_or_directories = 2130968579;
+			
+			// aapt resource value: 0x7f040005
+			public const int recentFilesCount = 2130968581;
 			
 			static String()
 			{

@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace com.xamarin.recipes.filepicker
 {
-    class RecentFileAdapter : ArrayAdapter<string>
+    class RecentFileAdapter : ArrayAdapter<RecentFile>
     {
         Context context;
 
@@ -24,7 +24,7 @@ namespace com.xamarin.recipes.filepicker
         }
 
 
-        public void AddRecentFilesInfo(IEnumerable<string> fileInfo)
+        public void AddRecentFilesInfo(IEnumerable<RecentFile> fileInfo)
         {
             Clear();
             // Notify the _adapter that things have changed or that there is nothing 
@@ -64,6 +64,8 @@ namespace com.xamarin.recipes.filepicker
         {
             TextView textView;
 
+            var item = GetItem(position);
+
             View view;
             RecentFileItemHolder viewHolder;
 
@@ -81,12 +83,32 @@ namespace com.xamarin.recipes.filepicker
                 viewHolder = (RecentFileItemHolder)view.Tag;
             }
 
-            viewHolder.Update("someFile - Some file");
+            string fileName;
+            if (!string.IsNullOrEmpty(item.Title))
+            {
+                if (!string.IsNullOrEmpty(item.Author))
+                {
+                    viewHolder.Update(item.Title + " (" + item.Author + ")");
+                }
+                else
+                {
+                    viewHolder.Update(item.Title);
+                }
+            }
+            else
+            {
+                var splited = item.Path.Split('/');
+                var lastSplited = splited.Last().Split('.');
+                var str = "";
+                for (var i = 0; i < lastSplited.Count() - 1; i++)
+                {
+                    str += lastSplited[i];
+                }
+                viewHolder.Update(str);
+            }
 
             return view;
         }
 
-        // references to our images
-        int[] thumbIds = { };
     }
 }

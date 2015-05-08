@@ -38,6 +38,8 @@ namespace com.xamarin.recipes.filepicker
             if (fileSystemInfo.IsFile())
             {
                 // Do something with the file.  In this case we just pop some toast.
+                var db = new DatabaseWorker();
+                db.AddRecentFilePath(fileSystemInfo.FullName);
                 Log.Verbose("FileListFragment", "The file {0} was clicked.", fileSystemInfo.FullName);
                 Toast.MakeText(Activity, "You selected file " + fileSystemInfo.FullName, ToastLength.Short).Show();
             }

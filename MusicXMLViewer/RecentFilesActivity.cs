@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using Android.Content;
 using Android.Util;
@@ -15,72 +16,42 @@ namespace com.xamarin.recipes.filepicker
     public class RecentFilesActivity : Activity
     {
 
-        private List<string> _recentOpenedFilePathList;
+        private List<RecentFile> _recentOpenedFileList;
         private const int RecentFilesCount = 9;
 
         private RecentFileAdapter recentFileAdapter;
-
+        
         protected override void OnCreate(Bundle bundle)
         {
-            base.OnCreate(bundle);
             SetContentView(Resource.Layout.recent_files);
-
-            LoadRecentFilesPath();
-
-            recentFileAdapter = new RecentFileAdapter(this);
-            recentFileAdapter.AddRecentFilesInfo(_recentOpenedFilePathList);
-
-            GridView grid = FindViewById<GridView>(Resource.Id.gridViewRecentFiles);
-
-            grid.Adapter = recentFileAdapter;
-
+            UpdateRecentFileView();
             Button but = FindViewById<Button>(Resource.Id.button2);
             but.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(FilePickerActivity));
                 StartActivity(intent);
             };
-
+            
+            base.OnCreate(bundle);
         }
 
-        /// <summary>
-        /// Загружаем список путей к последним открытым файлам
-        /// </summary>
-        /// <returns></returns>
-        void LoadRecentFilesPath()
+        protected override void OnRestart()
         {
-            _recentOpenedFilePathList = new List<string>();
-            //TODO подгрузка списка
-
-            for (int i = 0; i < RecentFilesCount; i++)
-            {
-                _recentOpenedFilePathList.Add("some info - some info " + i);
-            }
+            base.OnRestart();
+            UpdateRecentFileView();
         }
 
-        /// <summary>
-        /// Сохраняем в памяти устройства список последних открытых файлов
-        /// </summary>
-        void SaveRecentFilesPath()
+        void UpdateRecentFileView()
         {
-            //TODO сохранение списка в памяти устройства
-        }
+            var db = new DatabaseWorker();
+            _recentOpenedFileList = new List<RecentFile>(db.LoadRecentFilesPath());
 
-        /// <summary>
-        /// Добавляем новый путь в последние открытые файлы
-        /// </summary>
-        /// <param name="path"></param>
-        void AddPath(string path)
-        {
-            var tmp = new List<string>();
-            tmp.Add(path);
-            if (_recentOpenedFilePathList.Count >= RecentFilesCount)
-            {
-                tmp.AddRange(_recentOpenedFilePathList.GetRange(0, RecentFilesCount - 1));
-            }
-            _recentOpenedFilePathList = new List<string>(tmp);
-            SaveRecentFilesPath();
-        }
+            recentFileAdapter = new RecentFileAdapter(this);
+            recentFileAdapter.AddRecentFilesInfo(_recentOpenedFileList);
 
+            GridView grid = FindViewById<GridView>(Resource.Id.gridViewRecentFiles);
+
+            grid.Adapter = recentFileAdapter;
+        }
     }
 }
