@@ -1,3 +1,5 @@
+using System.Runtime.Serialization;
+
 namespace com.xamarin.recipes.filepicker
 {
     using System;
@@ -11,6 +13,38 @@ namespace com.xamarin.recipes.filepicker
     using Android.Views;
     using Android.Widget;
 
+    [Serializable]
+    public class RootDirectoryException : ApplicationException
+    {
+        //
+        // For guidelines regarding the creation of new exception types, see
+        //    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpgenref/html/cpconerrorraisinghandlingguidelines.asp
+        // and
+        //    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dncscol/html/csharp07192001.asp
+        //
+
+        public RootDirectoryException()
+        {
+        }
+
+        public RootDirectoryException(string message)
+            : base(message)
+        {
+        }
+
+        public RootDirectoryException(string message, Exception inner)
+            : base(message, inner)
+        {
+        }
+
+        protected RootDirectoryException(
+            SerializationInfo info,
+            StreamingContext context)
+            : base(info, context)
+        {
+        }
+    }
+
     /// <summary>
     ///   A ListFragment that will show the files and subdirectories of a given directory.
     /// </summary>
@@ -20,7 +54,7 @@ namespace com.xamarin.recipes.filepicker
     /// </remarks>
     public class FileListFragment : ListFragment
     {
-        public static readonly string DefaultInitialDirectory = "/";
+        public static readonly string DefaultDirectory = "/";
         private FileListAdapter _adapter;
         private DirectoryInfo _directory;
 
@@ -29,7 +63,13 @@ namespace com.xamarin.recipes.filepicker
             base.OnCreate(savedInstanceState);
             _adapter = new FileListAdapter(Activity, new FileSystemInfo[0]);
             ListAdapter = _adapter;
+
+            FilePickerActivity.OnBackPressedEvent += GoPrevDirectory;
         }
+
+        public delegate void MethodContainer(string dir);
+        public static event MethodContainer OnOpenDirectory;
+
 
         public override void OnListItemClick(ListView l, View v, int position, long id)
         {
@@ -47,6 +87,7 @@ namespace com.xamarin.recipes.filepicker
             {
                 // Dig into this directory, and display it's contents
                 RefreshFilesList(fileSystemInfo.FullName);
+
             }
 
             base.OnListItemClick(l, v, position, id);
@@ -55,12 +96,33 @@ namespace com.xamarin.recipes.filepicker
         public override void OnResume()
         {
             base.OnResume();
-            RefreshFilesList(DefaultInitialDirectory);
+            RefreshFilesList(DefaultDirectory);
+        }
+
+
+        public override void OnDestroy()
+        {
+            FilePickerActivity.OnBackPressedEvent -= GoPrevDirectory;
+            base.OnDestroy();
+        }
+
+        void GoPrevDirectory()
+        {
+            if (_directory.Parent != null)
+            {
+                RefreshFilesList(_directory.Parent.FullName);
+            }
+            else
+            {
+                FilePickerActivity.OnBackPressedEvent -= GoPrevDirectory;
+                throw new RootDirectoryException();
+            }
         }
 
 
         public void RefreshFilesList(string directory)
         {
+            if (OnOpenDirectory != null) OnOpenDirectory(directory);
             IList<FileSystemInfo> visibleThings = new List<FileSystemInfo>();
             var dir = new DirectoryInfo(directory);
 
@@ -89,5 +151,6 @@ namespace com.xamarin.recipes.filepicker
 
             Log.Verbose("FileListFragment", "Displaying the contents of directory {0}.", directory);
         }
+
     }
 }

@@ -22,7 +22,13 @@ namespace com.xamarin.recipes.filepicker
             SetContentView(Resource.Layout.file_explorer);
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
+            ActionBar.SetLogo(Resource.Drawable.ic_launcher);
+            FileListFragment.OnOpenDirectory += UpdateLabel;
+        }
 
+        void UpdateLabel(string dir)
+        {
+            ActionBar.Title = "/" + dir.Split('/').Last();
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
@@ -38,5 +44,22 @@ namespace com.xamarin.recipes.filepicker
             }
         }
 
+
+        public delegate void OnBackPressedContainer();
+
+        public static event OnBackPressedContainer OnBackPressedEvent;
+
+        public override void OnBackPressed()
+        {
+            try
+            {
+                if (OnBackPressedEvent != null) OnBackPressedEvent();
+            }
+            catch (RootDirectoryException)
+            {
+                base.OnBackPressed();
+            }
+            
+        }
     }
 }

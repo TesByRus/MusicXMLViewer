@@ -20,6 +20,9 @@ namespace com.xamarin.recipes.filepicker
         private const int RecentFilesCount = 9;
 
         private RecentFileAdapter recentFileAdapter;
+
+
+        public delegate void OpenFileContainer(string str);
         
         protected override void OnCreate(Bundle bundle)
         {

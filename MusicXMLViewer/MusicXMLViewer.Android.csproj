@@ -56,14 +56,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseWorker.cs" />
+    <Compile Include="Domain\Backup.cs" />
+    <Compile Include="Domain\Clef.cs" />
+    <Compile Include="Domain\Encoding.cs" />
+    <Compile Include="Domain\Forward.cs" />
+    <Compile Include="Domain\Identification.cs" />
+    <Compile Include="Domain\Key.cs" />
+    <Compile Include="Domain\Lyric.cs" />
+    <Compile Include="Domain\Measure.cs" />
+    <Compile Include="Domain\MeasureAttributes.cs" />
+    <Compile Include="Domain\MeasureElement.cs" />
+    <Compile Include="Domain\Note.cs" />
+    <Compile Include="Domain\Part.cs" />
+    <Compile Include="Domain\Pitch.cs" />
+    <Compile Include="Domain\Score.cs" />
+    <Compile Include="Domain\Time.cs" />
+    <Compile Include="MusicXmlParser.cs" />
+    <Compile Include="NotationActivity.cs" />
+    <Compile Include="RecentFileList\DatabaseWorker.cs" />
     <Compile Include="FileList\FileListAdapter.cs" />
     <Compile Include="FileList\FileListFragment.cs" />
     <Compile Include="FileList\FileListRowViewHolder.cs" />
     <Compile Include="FilePickerActivity.cs" />
-    <Compile Include="RecentFile.cs" />
-    <Compile Include="RecentFileAdapter.cs" />
-    <Compile Include="RecentFileItemHolder.cs" />
+    <Compile Include="RecentFileList\RecentFile.cs" />
+    <Compile Include="RecentFileList\RecentFileAdapter.cs" />
+    <Compile Include="RecentFileList\RecentFileItemHolder.cs" />
     <Compile Include="RecentFilesActivity.cs" />
     <Compile Include="FileList\Helpers.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -81,6 +98,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\RecentFileItem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\notation.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -106,6 +126,12 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\Drawable\recent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicXMLViewer.PCL\MusicXMLViewer.PCL.csproj">
+      <Project>{3cf72022-fde7-4aaf-850c-23664b5045d9}</Project>
+      <Name>MusicXMLViewer.PCL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

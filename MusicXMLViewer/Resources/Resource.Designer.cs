@@ -115,10 +115,13 @@ namespace com.xamarin.recipes.filepicker
 			public const int file_picker_list_item = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int recent_files = 2130903042;
+			public const int notation = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int RecentFileItem = 2130903043;
+			public const int recent_files = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int RecentFileItem = 2130903044;
 			
 			static Layout()
 			{
