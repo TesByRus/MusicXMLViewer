@@ -52,6 +52,11 @@ namespace com.xamarin.recipes.filepicker
         {
             var newList = new List<RecentFile>();
             var oldList = LoadRecentFilesPath();
+
+            if (oldList.Find(p => p.Path == path) != null)
+            {
+                oldList.Remove(oldList.Find(p => p.Path == path));
+            }
             var newRecFile = new RecentFile() { Path = path };
             newList.Add(newRecFile);
             if (newList.Count >= _recentFilesCount)
@@ -64,5 +69,6 @@ namespace com.xamarin.recipes.filepicker
             }
             SaveRecentFilesPath(newList);
         }
+
     }
 }
