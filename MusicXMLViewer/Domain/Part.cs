@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace MusicXml.Domain
+namespace MusicXMLViewer.Android.Domain
 {
 	public class Part
 	{

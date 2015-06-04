@@ -1,6 +1,6 @@
 using System;
 
-namespace MusicXml.Domain
+namespace MusicXMLViewer.Android.Domain
 {
 	public class Pitch
 	{

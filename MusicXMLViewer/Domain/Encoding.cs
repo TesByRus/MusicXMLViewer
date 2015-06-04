@@ -1,6 +1,6 @@
 using System;
 
-namespace MusicXml.Domain
+namespace MusicXMLViewer.Android.Domain
 {
 	/// <summary>
 	/// The encoding element contains information about who did the digital encoding,

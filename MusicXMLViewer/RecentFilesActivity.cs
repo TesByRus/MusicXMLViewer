@@ -1,17 +1,14 @@
-﻿using System;
-using System.IO;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using Android.App;
 using Android.Content;
-using Android.Util;
+using Android.OS;
 using Android.Views;
 using Android.Widget;
+using MusicXMLViewer.Android.FileList;
+using MusicXMLViewer.Android.RecentFileList;
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android
 {
-    using Android.App;
-    using Android.OS;
-    using Android.Support.V4.App;
-
     [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class RecentFilesActivity : Activity
     {
@@ -23,9 +20,11 @@ namespace com.xamarin.recipes.filepicker
 
 
         public delegate void OpenFileContainer(string str);
-        
+
         protected override void OnCreate(Bundle bundle)
         {
+
+            base.OnCreate(bundle);
             SetContentView(Resource.Layout.recent_files);
             UpdateRecentFileView();
             Button but = FindViewById<Button>(Resource.Id.button2);
@@ -35,7 +34,27 @@ namespace com.xamarin.recipes.filepicker
                 StartActivity(intent);
             };
             
-            base.OnCreate(bundle);
+            FileListFragment.OnOpenFile += OpenFile;
+            RecentFileItemHolder.OnRecentFileClick += OpenFile;
+
+            ActionBar.Title = "Recently opened files";
+            
+        }
+
+
+
+        void OpenFile(string path)
+        {
+            if (path != null)
+            {
+                var intent = new Intent(this, typeof (NotationActivity));
+                intent.PutExtra("path", path);
+                StartActivity(intent);
+            }
+            else
+            {
+                //TODO сделать удаление информации о файле 
+            }
         }
 
         protected override void OnRestart()
@@ -56,5 +75,6 @@ namespace com.xamarin.recipes.filepicker
 
             grid.Adapter = recentFileAdapter;
         }
+
     }
 }

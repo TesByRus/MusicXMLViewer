@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("com.xamarin.recipes.filepicker.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("MusicXMLViewer.Android.Resource", IsApplication=true)]
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android
 {
 	
 	
@@ -26,8 +26,8 @@ namespace com.xamarin.recipes.filepicker
 		
 		public static void UpdateIdValues()
 		{
-			global::SQLite.Resource.String.ApplicationName = global::com.xamarin.recipes.filepicker.Resource.String.ApplicationName;
-			global::SQLite.Resource.String.Hello = global::com.xamarin.recipes.filepicker.Resource.String.Hello;
+			global::SQLite.Resource.String.ApplicationName = global::MusicXMLViewer.Android.Resource.String.ApplicationName;
+			global::SQLite.Resource.String.Hello = global::MusicXMLViewer.Android.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -71,8 +71,8 @@ namespace com.xamarin.recipes.filepicker
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int button2 = 2131034117;
+			// aapt resource value: 0x7f050009
+			public const int button2 = 2131034121;
 			
 			// aapt resource value: 0x7f050001
 			public const int details = 2131034113;
@@ -86,11 +86,23 @@ namespace com.xamarin.recipes.filepicker
 			// aapt resource value: 0x7f050004
 			public const int file_picker_text = 2131034116;
 			
-			// aapt resource value: 0x7f050006
-			public const int gridViewRecentFiles = 2131034118;
+			// aapt resource value: 0x7f05000a
+			public const int gridViewRecentFiles = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int notationLayout = 2131034117;
 			
 			// aapt resource value: 0x7f050007
-			public const int textViewRecentFile = 2131034119;
+			public const int progressBarFileOpening = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int progressLayout = 2131034118;
+			
+			// aapt resource value: 0x7f050008
+			public const int textViewLoading = 2131034120;
+			
+			// aapt resource value: 0x7f05000b
+			public const int textViewRecentFile = 2131034123;
 			
 			// aapt resource value: 0x7f050002
 			public const int titles_fragment = 2131034114;
@@ -115,13 +127,16 @@ namespace com.xamarin.recipes.filepicker
 			public const int file_picker_list_item = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int notation = 2130903042;
+			public const int measure = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int recent_files = 2130903043;
+			public const int notation = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int RecentFileItem = 2130903044;
+			public const int recent_files = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int RecentFileItem = 2130903045;
 			
 			static Layout()
 			{

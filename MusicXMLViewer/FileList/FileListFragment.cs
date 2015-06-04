@@ -1,18 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Runtime.Serialization;
+using Android.OS;
+using Android.Support.V4.App;
+using Android.Util;
+using Android.Views;
+using Android.Widget;
+using MusicXMLViewer.Android.RecentFileList;
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android.FileList
 {
-    using System;
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-
-    using Android.OS;
-    using Android.Support.V4.App;
-    using Android.Util;
-    using Android.Views;
-    using Android.Widget;
-
     [Serializable]
     public class RootDirectoryException : ApplicationException
     {
@@ -58,6 +57,13 @@ namespace com.xamarin.recipes.filepicker
         private FileListAdapter _adapter;
         private DirectoryInfo _directory;
 
+
+        public delegate void MethodContainer(string dir);
+        public static event MethodContainer OnOpenDirectory;
+
+        public delegate void OnOpenFileContainer(string path);
+        public static event OnOpenFileContainer OnOpenFile;
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -67,8 +73,6 @@ namespace com.xamarin.recipes.filepicker
             FilePickerActivity.OnBackPressedEvent += GoPrevDirectory;
         }
 
-        public delegate void MethodContainer(string dir);
-        public static event MethodContainer OnOpenDirectory;
 
 
         public override void OnListItemClick(ListView l, View v, int position, long id)
@@ -80,8 +84,9 @@ namespace com.xamarin.recipes.filepicker
                 // Do something with the file.  In this case we just pop some toast.
                 var db = new DatabaseWorker();
                 db.AddRecentFilePath(fileSystemInfo.FullName);
-                Log.Verbose("FileListFragment", "The file {0} was clicked.", fileSystemInfo.FullName);
-                Toast.MakeText(Activity, "You selected file " + fileSystemInfo.FullName, ToastLength.Short).Show();
+
+                OnOpenFile(fileSystemInfo.FullName);
+
             }
             else
             {

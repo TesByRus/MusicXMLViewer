@@ -1,19 +1,18 @@
-namespace com.xamarin.recipes.filepicker
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using Android.Content;
+using Android.Views;
+using Android.Widget;
+
+namespace MusicXMLViewer.Android.FileList
 {
-    using System.Collections.Generic;
-    using System.IO;
-    using System.Linq;
-
-    using Android.Content;
-    using Android.Views;
-    using Android.Widget;
-
     public class FileListAdapter : ArrayAdapter<FileSystemInfo>
     {
         private readonly Context _context;
 
         public FileListAdapter(Context context, IList<FileSystemInfo> fsi)
-            : base(context, Resource.Layout.file_picker_list_item, Android.Resource.Id.Text1, fsi)
+            : base(context, Resource.Layout.file_picker_list_item, global::Android.Resource.Id.Text1, fsi)
         {
             _context = context;
         }

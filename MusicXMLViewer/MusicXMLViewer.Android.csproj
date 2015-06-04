@@ -9,7 +9,7 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>com.xamarin.recipes.filepicker</RootNamespace>
+    <RootNamespace>MusicXMLViewer.Android</RootNamespace>
     <AssemblyName>XamarinFilePickerExample</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
@@ -71,8 +71,11 @@
     <Compile Include="Domain\Pitch.cs" />
     <Compile Include="Domain\Score.cs" />
     <Compile Include="Domain\Time.cs" />
+    <Compile Include="Example\ScorePartwise.cs" />
+    <Compile Include="musicxml.cs" />
     <Compile Include="MusicXmlParser.cs" />
     <Compile Include="NotationActivity.cs" />
+    <Compile Include="Notation\ScoreDrawer.cs" />
     <Compile Include="RecentFileList\DatabaseWorker.cs" />
     <Compile Include="FileList\FileListAdapter.cs" />
     <Compile Include="FileList\FileListFragment.cs" />
@@ -101,6 +104,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\notation.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\measure.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -133,6 +139,7 @@
       <Name>MusicXMLViewer.PCL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

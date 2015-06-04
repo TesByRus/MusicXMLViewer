@@ -1,17 +1,11 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Views;
-using Android.Widget;
+using MusicXMLViewer.Android.FileList;
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android
 {
     [Activity(Label = "FilePickerActivity")]
     public class FilePickerActivity : FragmentActivity
@@ -23,7 +17,9 @@ namespace com.xamarin.recipes.filepicker
             ActionBar.SetHomeButtonEnabled(true);
             ActionBar.SetDisplayHomeAsUpEnabled(true);
             ActionBar.SetLogo(Resource.Drawable.ic_launcher);
+
             FileListFragment.OnOpenDirectory += UpdateLabel;
+
         }
 
         void UpdateLabel(string dir)
@@ -31,11 +27,12 @@ namespace com.xamarin.recipes.filepicker
             ActionBar.Title = "/" + dir.Split('/').Last();
         }
 
+
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
             switch (item.ItemId)
             {
-                case Android.Resource.Id.Home:
+                case global::Android.Resource.Id.Home:
                     Finish();
                     return true;
 

@@ -22,5 +22,6 @@
         android:text=""
         android:editable="false"
         android:textStyle="italic"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:onClick="OnRecentFileClick" />
 </LinearLayout>

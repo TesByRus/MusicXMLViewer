@@ -1,24 +1,18 @@
-using System;
-using System.IO;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
-using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using MusicXMLViewer.Android.FileList;
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android.RecentFileList
 {
     class RecentFileAdapter : ArrayAdapter<RecentFile>
     {
         Context context;
 
         public RecentFileAdapter(Context c)
-            : base(c, Resource.Layout.RecentFileItem, Android.Resource.Id.Text1)
+            : base(c, (int)Resource.Layout.RecentFileItem, (int) global::Android.Resource.Id.Text1)
         {
             context = c;
         }
@@ -88,11 +82,11 @@ namespace com.xamarin.recipes.filepicker
             {
                 if (!string.IsNullOrEmpty(item.Author))
                 {
-                    viewHolder.Update(item.Title + " (" + item.Author + ")");
+                    viewHolder.Update(item.Title + " (" + item.Author + ")", item.Path);
                 }
                 else
                 {
-                    viewHolder.Update(item.Title);
+                    viewHolder.Update(item.Title, item.Path);
                 }
             }
             else
@@ -104,7 +98,7 @@ namespace com.xamarin.recipes.filepicker
                 {
                     str += lastSplited[i];
                 }
-                viewHolder.Update(str);
+                viewHolder.Update(str, item.Path);
             }
 
             return view;

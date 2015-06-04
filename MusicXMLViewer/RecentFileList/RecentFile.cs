@@ -1,6 +1,6 @@
 using SQLite;
 
-namespace com.xamarin.recipes.filepicker
+namespace MusicXMLViewer.Android.RecentFileList
 {
     public class RecentFile
     {

@@ -2,10 +2,10 @@
 using System.IO;
 using System.Text;
 using System.Xml;
-using MusicXml.Domain;
-using Encoding = MusicXml.Domain.Encoding;
+using MusicXMLViewer.Android.Domain;
+using Encoding = MusicXMLViewer.Android.Domain.Encoding;
 
-namespace MusicXml
+namespace MusicXMLViewer.Android
 {
 	public static class MusicXmlParser
 	{
@@ -383,7 +383,7 @@ namespace MusicXml
 
 		private static string GetFileContents(string filename)
 		{
-			using (var fileStream = new FileStream(filename, FileMode.Open))
+			using (var fileStream = new FileStream(filename, FileMode.Open, FileAccess.Read))
 			using (var streamReader = new StreamReader(fileStream))
 			{
 				return streamReader.ReadToEnd();
