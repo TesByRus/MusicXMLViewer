@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <!-- Inherit from the light Material Theme -->
+  <style name="MyCustomTheme" parent="android:Theme.Material.Light">
+    <!-- Customizations go here -->
+    <!-- Override the app bar color -->
+    <item name="android:colorPrimary">@color/my_primary</item>
+    <!-- Override the color of UI controls -->
+    <item name="android:colorAccent">@color/my_accent</item>
+    <item name="android:statusBarColor">@color/my_statusbar</item>
+    <item name="android:textColorPrimary">@color/my_textcolor</item>
+  </style>
+  <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+    <item name="android:textColorPrimary">@color/my_textdark</item>
+  </style>
+</resources>

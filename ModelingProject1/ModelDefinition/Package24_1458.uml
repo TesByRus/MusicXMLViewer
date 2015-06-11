@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f64417a3-9904-4277-8da0-80deda81e62c"
+  name="Notation"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="10b76058-495a-47b0-aff8-daac58c44c0e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMusicXMLViewer.Android.Notation"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ae3543aa-ff4a-4209-81e7-05a85aa8cfa9"
+        name="ScoreDrawer"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b07bdbc9-da2a-45c3-b2bb-9800c9ef555e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="873eafde-c821-4672-b6e6-b3ae53796f19"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56ba04e6-12bf-4634-917c-6f080b43e9b7">
+                <propertyInstance
+                  Id="ec616678-ea28-4de4-a4fc-d17d6e23ded3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc5ed3f7-aab9-4f63-b268-c812d78964fd">
+                <propertyInstance
+                  Id="4b589432-2354-4b83-84bb-3b1dc926097e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a1266e1d-8eb2-4236-86d8-2810a8311455">
+                <propertyInstance
+                  Id="6325ba66-06a0-4787-9945-cad97cfc6088"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b50d6f2-63eb-4b35-a8fe-1ed3648d215c">
+                <propertyInstance
+                  Id="68b24457-40a1-4168-bc8e-f9c5bdd216d8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d1b20a8-9b9f-481c-acec-cfc1089bb8f7">
+                <propertyInstance
+                  Id="cef41db0-fab6-4e31-ac86-0c329c17d43b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="772996b4-14fc-4457-80fa-9d4b67868a1d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="7f90d040-7beb-45bb-a587-09c683bcac51"
+              LastKnownName="ScrollView"
+              LastKnownLocation="Package12_1458.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7c6f50a5-ba56-4595-a984-e3a4a70b10b5"
+            name="PartHeight"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3292c1fd-a327-49f1-a195-b7c43aa835b0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3DPartHeight"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b1172759-2541-4cf6-ba3d-a456b906c07e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb349b83-2453-47f6-a980-7c4d885ba033">
+                    <propertyInstance
+                      Id="e7bae926-b43b-42ae-a1b4-3ff612b92d27"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29bf64ec-136e-4896-96ed-d5356eb0eac8">
+                    <propertyInstance
+                      Id="8973545c-8dd1-4586-b9b1-0a372e83972d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad045424-5355-46c5-8bb6-3d2d99ee94e6">
+                    <propertyInstance
+                      Id="0233c49c-d8fc-4e05-9844-09bd799e1ac9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d062cbab-ea90-4b40-8770-d0a2778726c2">
+                    <propertyInstance
+                      Id="fc40562d-cdb2-4325-a5a1-ea8dc067f10d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f58450c3-07be-480e-8977-6c132250541c">
+                    <propertyInstance
+                      Id="569fe7f1-998d-449f-b016-fcda3cb33b99"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="69734d44-09dc-4c20-bd02-b9dc0d2f8fee"
+            name="_dpiCoef"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="057f9dca-102a-4f38-bdee-0ea4ecdc2f75"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D_dpiCoef"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a0d415a-bebe-46cc-bb30-534e8d5966bd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9492f320-1c7b-40b6-89e3-8ce5619da97a">
+                    <propertyInstance
+                      Id="bcb64595-476f-4192-8d6e-d754cc92bcc8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fa630a0-ca71-48ae-ad90-d4bcedc4355c">
+                    <propertyInstance
+                      Id="8d2e9704-b1e5-4b24-8374-6a1d14049f2d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="972c70d5-91a5-4122-bbb8-070c350ff9bb">
+                    <propertyInstance
+                      Id="3a60dd56-cbf4-4019-87a7-dc17e2ddd570"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="682f06cd-0cb2-434f-afd1-061680f1c757">
+                    <propertyInstance
+                      Id="876c232a-100a-44d9-900a-af6e1e2228d9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5617e3e9-4273-47d8-98e1-0a61d11afa7c">
+                    <propertyInstance
+                      Id="54e12aa9-c518-4a1b-934b-275dd134ae3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="16320b51-5864-4dca-8a60-8a1c23eba388"
+                LastKnownName="Single"
+                LastKnownLocation="Package4_1458.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="32592151-d2c0-4ff4-94f3-7016730c9eab"
+            name="paddingLeftRight"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="66d01aff-a061-4ad2-a89c-79df672d36c0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3DpaddingLeftRight"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0d88d9fc-c020-43c5-94d9-6349756bdc2f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97f3d549-ad51-4eea-9b9a-6c68e17d13b8">
+                    <propertyInstance
+                      Id="91144fec-f521-4b2d-a20e-787ddccbce50"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9a7d191-6482-4acb-9bb5-2099252427bc">
+                    <propertyInstance
+                      Id="4d680672-87d3-4b7f-9442-1628bdafd994"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="369dbc93-88b6-4e2b-9ebe-ddda65a3350b">
+                    <propertyInstance
+                      Id="9111e52a-24c6-465f-a336-febba558f198"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f19c564-d50a-46c3-a817-7f3adb9e8d07">
+                    <propertyInstance
+                      Id="449bc4c5-19af-4802-ac53-9a8ddc5d7dba"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c40eebf5-2be4-41a1-9a12-9746277f54d9">
+                    <propertyInstance
+                      Id="777f5de6-361f-41e9-b78a-03111ea1fe0d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="b611311c-386b-494a-be9a-679cc9c9cf83"
+            name="paddingTopBot"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d36e8007-bbaf-46d6-98cc-a2ca697c2437"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3DpaddingTopBot"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4a25aa2-8f16-487b-afac-a1dd9e7e975c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f7e9ef1-3c9f-4538-b088-726e4c4eec91">
+                    <propertyInstance
+                      Id="22b7b1aa-a851-48aa-b704-7ae4905e9bce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33b385aa-842c-4269-987c-8ea1558cb352">
+                    <propertyInstance
+                      Id="cbd231ac-1728-4269-8b29-a6b2f78e373e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83ee161f-c660-45f9-9418-b3f46c7df062">
+                    <propertyInstance
+                      Id="973d1fbe-5af0-4aa6-a1f2-66b09e631986"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14c068d3-0d52-4fd9-a043-5ca762f428f6">
+                    <propertyInstance
+                      Id="0f79387d-28d3-434d-ab97-cebb6f5e38c9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a1ca7e0-a648-46c6-86c1-2684b0e63a83">
+                    <propertyInstance
+                      Id="6389d02f-09d5-4354-8bcb-2fa9873126fd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="7083e33c-c144-4fe1-8467-2220b6ab4ca7"
+            name="paint"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e797c4fd-f21d-4e8d-8892-129877120d45"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3Dpaint"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="89342d54-d424-442e-9a12-b030de81d759"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b73a7884-efba-4b33-aca7-541617a179e1">
+                    <propertyInstance
+                      Id="a7b4c6b8-02fb-43b7-841a-d03ac485b967"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64f870fd-c575-4157-8a7d-134d240393f5">
+                    <propertyInstance
+                      Id="a2900c53-5ecd-4455-aff7-09eafdbb7eba"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92dbed36-cc73-4dc5-b9c4-3631d3a7a7a6">
+                    <propertyInstance
+                      Id="545a8602-ef70-477c-be53-603fc73124df"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="141a24b3-f91f-4c75-a7fb-872c72612036">
+                    <propertyInstance
+                      Id="15d42551-8629-4df4-b515-83335ba0fd66"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09e4f016-b04d-4973-856a-3cd0b21d607a">
+                    <propertyInstance
+                      Id="e53c71f5-360f-4f56-9e4b-2bed9034f9de"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e3d8ad3a-af54-4c54-be45-fabe78f03c36"
+                LastKnownName="Paint"
+                LastKnownLocation="Package25_1458.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="86c32f9c-7205-4496-bea6-cd591c3ccfb5"
+            name="path"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5b9c5824-8a91-4a32-a106-a6038807be9d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3Dpath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0ae10348-1a2f-4313-aa16-2bd5b3768402"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7597f69-450e-489b-832b-2a9176823aea">
+                    <propertyInstance
+                      Id="194fbcfe-c37e-49d9-8cbf-b350492d0e19"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a849656-4340-405a-80dc-4dd9633d96ab">
+                    <propertyInstance
+                      Id="bb5472d3-268c-47a2-82a8-75d25fcba2a6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59d37f76-75b4-470f-8ea3-dc01acf23ce2">
+                    <propertyInstance
+                      Id="cd4549e8-af94-49d7-8972-a8d2eca818c2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a47881a8-bea6-4c06-a7a8-cb237d155d29">
+                    <propertyInstance
+                      Id="b6aed1be-ec16-43dd-bc21-4f0c681c6c07"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3618c542-707e-47a3-b2c5-d82eae605644">
+                    <propertyInstance
+                      Id="44f3f952-badf-482e-9db6-bda4deb9101e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="057682f9-2dd2-4654-8816-f10939face22"
+                LastKnownName="Path"
+                LastKnownLocation="Package25_1458.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3eac1edf-d8d7-4c09-b94d-da574791a037"
+            name="score"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e0724569-17b5-4709-81c4-4f4fffd710ca"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3Dscore"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db7628c2-c73d-4f3f-a53a-a62308404be0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08b46d11-dba3-4564-99ef-4f018001ea77">
+                    <propertyInstance
+                      Id="0d2d2f2c-48b8-488f-b9f3-f981cf69047f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24db7a0f-60e9-45e5-a7b2-88ddd6c6aaed">
+                    <propertyInstance
+                      Id="0ea98589-0941-4181-beb6-1b06eb25acd3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f33b0583-f019-4893-90ce-cbf130694af5">
+                    <propertyInstance
+                      Id="d9aa7b88-4307-4160-acf8-b2d67a5b96b5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c516cc8-7ad4-416c-bc30-ea2b9eddebe9">
+                    <propertyInstance
+                      Id="860330c8-4d32-4b2d-993e-6943dd29cfb4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="218cd28f-139a-4a21-80f8-214a2cec27e1">
+                    <propertyInstance
+                      Id="d0f7d041-384a-489b-9f7e-aa04f14d5c98"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="375ddf31-0e40-473c-9bc2-65530cfd7518"
+                LastKnownName="scorepartwise"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fe02a3f2-3be6-4171-9811-ea8e3eec5bb9"
+            name="ScoreDrawer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d15316d7-0c00-4784-9a0a-22810c11d430"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3Dscorepartwise)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="00264ddb-466a-4e74-ab71-be420e2bd563"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d90858c-6687-4ee2-bccd-0dc153acdd1c">
+                    <propertyInstance
+                      Id="1545c802-5368-43b0-8fec-0b452137abc0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3656ffef-0a92-4116-be75-e0891b824244">
+                    <propertyInstance
+                      Id="74509046-0e0e-4f2e-84ef-e17de3741cb5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1637854-7b93-401f-98a6-6c40cb018eeb">
+                    <propertyInstance
+                      Id="50bf7067-7abd-439a-b5e3-855f59344495"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccdc19e7-9022-408a-96ce-078cc04e6cc8">
+                    <propertyInstance
+                      Id="d2d4fe45-d67b-49a2-8acc-3f20f0ba4976"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="835a402c-eebf-4875-a15e-24afe5de3827">
+                    <propertyInstance
+                      Id="230fb857-c854-4d21-b0f8-500dffa010e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c065655e-a790-4c08-b397-44cd0f654944">
+                    <propertyInstance
+                      Id="3f917c74-e0ed-4c52-a0b8-ea65e31318cb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa2f0ef0-c458-4b8d-b6a1-e2b98948f2fa"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b9eae48b-e1a4-4f9e-a3d9-6b9778a1ab17"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3Dscorepartwise)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f19d5d71-51d9-4075-923f-044f454c723a"
+                      LastKnownName="Context"
+                      LastKnownLocation="Package9_1458.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f59be3b-edf9-4ee8-9ec6-c883546ab9bd"
+                  name="score"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4d9a8ec5-a4f6-4251-bd44-cdeffbe5bf61"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3Dscorepartwise)]) ParameterIdentifier%3Dscore"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="375ddf31-0e40-473c-9bc2-65530cfd7518"
+                      LastKnownName="scorepartwise"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="123e9bda-a7ba-4d7c-a47e-b7befed39700"
+            name="DrawLines"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8bc9ecd2-3b1d-4ffa-87c3-e686644ef7ff"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawLines OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DPath)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ed0df533-f2e5-48da-a025-446b9bc9880a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4da91ddb-6f56-4b04-b10d-8d933760c57b">
+                    <propertyInstance
+                      Id="53b9915d-658e-4beb-a2f9-2361a4a97ae5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01863c78-a9a5-4d03-bb0d-2ef40906be8b">
+                    <propertyInstance
+                      Id="b2e71e71-c6aa-4b0c-b7a9-6c4490d1289a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bff31f08-2f55-4264-88aa-8a4b6a21de27">
+                    <propertyInstance
+                      Id="01df82c1-2a9a-4bfb-b3ac-b9d0de16d7d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="150b45b8-c267-4caa-9890-1f4f5a52f466">
+                    <propertyInstance
+                      Id="4de2cb7a-3f3e-40d2-bd3f-df71a0bb74df"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9daa1c73-e79a-42f8-a570-179d398b408e">
+                    <propertyInstance
+                      Id="4422fa0b-4036-4f7e-8e59-681416aff71a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebab391b-d112-43c5-a974-fb0db5ff7805">
+                    <propertyInstance
+                      Id="53b326ae-00ad-4e86-b006-72de2b6bc2d5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9ab9daf8-35d3-4136-af18-6242bea04940"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="296b145b-310f-4284-aab4-a6c9b553a5e7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawLines OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DPath)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="057682f9-2dd2-4654-8816-f10939face22"
+                      LastKnownName="Path"
+                      LastKnownLocation="Package25_1458.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e2ff9377-5c3a-41b3-ac0e-c274f356d927"
+                  name="x"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0d415e5a-d70d-4509-9912-87c8e5e91b1d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawLines OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DPath)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9f017f99-a722-4fd6-92b7-3bb13d50309b"
+                  name="y"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="25a1c706-fbe8-4f29-94c1-d0af6021ae5a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawLines OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DPath)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dy"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ed78d80-5e00-4950-8005-617a1159cda0"
+                  name="measureWidth"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="870ed219-456f-485a-ab29-344d5c1734e7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawLines OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DPath)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3DmeasureWidth"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="16320b51-5864-4dca-8a60-8a1c23eba388"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package4_1458.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="929e03d8-8c87-4a94-9e45-54812c7e74ab"
+            name="DrawPart"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de56a785-fa6f-4126-a4a2-6cbd97debd72"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawPart OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4bf73d1d-9a2b-436a-93df-24b75daf07da"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47d8c4f0-5be0-4c3a-84ae-5143e5100ee7">
+                    <propertyInstance
+                      Id="7704e267-7933-44b3-a4ad-a31b14954e65"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b17dbdf4-f111-4758-ab38-4248c80b4b92">
+                    <propertyInstance
+                      Id="15c36dfa-983a-4a34-9ac2-456e88726d01"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55183adf-83d1-4853-82e4-90d121403db9">
+                    <propertyInstance
+                      Id="508afd58-3c56-462b-8234-a0dd9838fbb5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afdff489-f0c6-4eb3-a12c-ff00b7b6707a">
+                    <propertyInstance
+                      Id="9c7c6170-29d3-401f-9ed3-02920f04ce3e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcdfef0c-50ba-4395-b7c5-2c23a60313ba">
+                    <propertyInstance
+                      Id="a6894e3d-6eed-4584-837e-9a9e71e9cb25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e11949b8-00bf-4d6e-bcd5-bed67cd18d72">
+                    <propertyInstance
+                      Id="aecacfbf-2fe6-479a-ad60-86b5ecc7647a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="17087da5-940f-4191-a917-1c7e9ec6c48c"
+                  name="part"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="101a690e-5422-4d50-8330-e302bab8b2fc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawPart OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dpart"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b7b9e39d-17b3-4370-a52a-a4b36c81f3da"
+                      LastKnownName="scorepartwisePart"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9e8d9f8d-7ba7-45db-9a8b-3c21f77b25db"
+                  name="canvas"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cc288140-3a4c-4819-beb7-a0622679e691"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawPart OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dcanvas"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ee759c2-0a3e-49de-85ac-d296937922c1"
+                      LastKnownName="Canvas"
+                      LastKnownLocation="Package25_1458.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fcb083c7-70ea-4c4c-b924-51db8f961ee1"
+                  name="startX"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bb342517-4bdb-4dd3-b046-4eef01e34182"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawPart OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DstartX"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0da1c8f9-6aa0-4fc9-81fc-5b12695dc721"
+                  name="startY"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c9bee569-62c3-4fc2-b19e-c2cc63521cdd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DDrawPart OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DstartY"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="91c52427-b34d-4541-976f-b3d8a4b24364"
+            name="OnDraw"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="da4ba1ba-ab63-4645-ba0a-f24024329a5f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DOnDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0a4f182-23d4-47d8-93d8-5f1e81920f3d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bef7bc96-743c-43bd-98b1-2467639c7b77">
+                    <propertyInstance
+                      Id="854a9d64-2e75-4b65-be57-016d7765a4b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc1f32af-8b62-4f0a-82a5-491ff1741a2c">
+                    <propertyInstance
+                      Id="62b43edd-8d6e-417c-9a82-5f4c8bbd6fbc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ccdfec6-203f-4d43-acff-e06b58f1f317">
+                    <propertyInstance
+                      Id="810aa738-0ebc-48cf-b1f6-c37a224e89a0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57019cd9-bc6b-40d3-bd74-d4e4fc05d369">
+                    <propertyInstance
+                      Id="64cbb7bf-3c5f-4b41-a487-8366a4bba013"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51c70680-36be-4580-97f4-d5489143a6d2">
+                    <propertyInstance
+                      Id="6cb1c657-2874-463c-a501-c7bee73ff80f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28b03173-ef1a-4e49-8fe9-69cbe59eda9b">
+                    <propertyInstance
+                      Id="223a41a7-f63f-4649-947b-def2827c2146"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="13733e9a-be15-40c9-9f7d-483856066401"
+                  name="canvas"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="69675979-8864-4e6c-9f21-5c2f01094732"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.Notation Type%3DScoreDrawer Member%3D(Name%3DOnDraw OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Graphics Type%3DCanvas)]) ParameterIdentifier%3Dcanvas"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ee759c2-0a3e-49de-85ac-d296937922c1"
+                      LastKnownName="Canvas"
+                      LastKnownLocation="Package25_1458.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

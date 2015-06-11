@@ -15,7 +15,7 @@
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidSupportedAbis>armeabi-v7a%3bx86</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
@@ -56,26 +56,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Backup.cs" />
-    <Compile Include="Domain\Clef.cs" />
-    <Compile Include="Domain\Encoding.cs" />
-    <Compile Include="Domain\Forward.cs" />
-    <Compile Include="Domain\Identification.cs" />
-    <Compile Include="Domain\Key.cs" />
-    <Compile Include="Domain\Lyric.cs" />
-    <Compile Include="Domain\Measure.cs" />
-    <Compile Include="Domain\MeasureAttributes.cs" />
-    <Compile Include="Domain\MeasureElement.cs" />
-    <Compile Include="Domain\Note.cs" />
-    <Compile Include="Domain\Part.cs" />
-    <Compile Include="Domain\Pitch.cs" />
-    <Compile Include="Domain\Score.cs" />
-    <Compile Include="Domain\Time.cs" />
-    <Compile Include="Example\ScorePartwise.cs" />
     <Compile Include="musicxml.cs" />
-    <Compile Include="MusicXmlParser.cs" />
     <Compile Include="NotationActivity.cs" />
+    <Compile Include="Notation\MyPagerAdapter.cs" />
+    <Compile Include="Notation\MusicXMLDeserializer.cs" />
+    <Compile Include="Notation\Page.cs" />
     <Compile Include="Notation\ScoreDrawer.cs" />
+    <Compile Include="Notation\ScoreModified.cs" />
     <Compile Include="RecentFileList\DatabaseWorker.cs" />
     <Compile Include="FileList\FileListAdapter.cs" />
     <Compile Include="FileList\FileListFragment.cs" />
@@ -106,7 +93,10 @@
     <AndroidResource Include="Resources\Layout\notation.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\Layout\measure.axml">
+    <AndroidResource Include="Resources\Layout\switcher.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\notation_page.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -132,14 +122,15 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\Drawable\recent.png" />
+    <AndroidResource Include="Resources\Values\colors.xml" />
+    <AndroidResource Include="Resources\values-v21\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Values\styles.xml" />
+    <AndroidResource Include="Resources\menu\menu.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MusicXMLViewer.PCL\MusicXMLViewer.PCL.csproj">
-      <Project>{3cf72022-fde7-4aaf-850c-23664b5045d9}</Project>
-      <Name>MusicXMLViewer.PCL</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

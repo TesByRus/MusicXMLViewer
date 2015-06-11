@@ -1,0 +1,2254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5722b88d-ecd4-4eb6-9f42-93bcb3fd9384"
+  name="RecentFileList"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c6d91cdf-b439-4743-8e1c-ae9e175ba41d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMusicXMLViewer.Android.RecentFileList"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="dd092521-dbda-4ee4-a9ee-40e543eb9dc3"
+        name="RecentFile"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0a8129d4-55b8-4dad-95c3-163355d5c0fd"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="830f6fe7-7e2b-4de5-b38f-787f310a7231"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5832767e-f8ce-4f07-a732-9b0c3696664e">
+                <propertyInstance
+                  Id="ceb01e8e-ce25-4ea4-b6a6-01021737a240"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2b660274-a8dd-44b4-b73f-943b5d9a678b">
+                <propertyInstance
+                  Id="f033ca14-fbd9-4d71-ad66-f8ce980629d9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a90faf0d-2791-4eb0-a0a6-b10e5c477dbf">
+                <propertyInstance
+                  Id="231400ee-779d-404d-9050-1e1d2b6aed8d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="723464e1-8278-471a-baae-0f705055859a">
+                <propertyInstance
+                  Id="e9df4e03-6367-4891-b8df-e5e50a2eb55e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65987b2a-8fe9-44c6-a239-5e06106ff7e3">
+                <propertyInstance
+                  Id="fee08653-10fa-4953-be1d-1258d1566112"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="071839bc-cfb5-4b64-b873-e2bc991c5764"
+            name="Author"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8f2e3fa9-610b-4293-946c-19973162c3e2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile Member%3DAuthor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c9992583-07c7-4965-abef-636223c060fc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eff29bb6-a219-4255-b63e-0e53dec97160">
+                    <propertyInstance
+                      Id="38a930c9-0a3b-484b-aa98-7d003832c7ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c66146d6-1483-4e7d-8a55-3036deded8c2">
+                    <propertyInstance
+                      Id="279f53ed-33be-44e0-920b-888a3efbad77"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f662498e-c722-44ce-8a52-fbc348d6145f">
+                    <propertyInstance
+                      Id="0ff7c3bf-3938-48bc-a22e-f72f37adb6a3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="245bff9c-17b5-415f-9394-6638dd3754e8">
+                    <propertyInstance
+                      Id="9eefd62b-deb9-4505-b8a4-7ed5239833bf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0245b00-ac6d-444b-bf6a-cc3daaaf2bef">
+                    <propertyInstance
+                      Id="a759400e-a154-4c6e-af49-d77f1815d2cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2ddd54f-6f70-4781-8c07-8c71bb31404f">
+                    <propertyInstance
+                      Id="c62a8562-f3d6-497e-83d9-382fd5881cf6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="938c7aaa-bafe-49a4-8a54-3fd04ce2116a">
+                    <propertyInstance
+                      Id="406a0378-aa08-44bb-8e70-eb85bbcca3e4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dff4d80b-1dbe-40c8-b8f1-775e9abceb5a"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b1dbd94b-74cc-46ca-bab6-eed7808c5d27"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9643ac2-d751-4fe2-8f74-7955b5770a68"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38281704-131c-4a66-acf0-3cfcb3a32e0f">
+                    <propertyInstance
+                      Id="8d715f96-2262-4865-8580-d6e3cfa1fe76"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6429be0a-3d4e-4556-9891-368384b99da0">
+                    <propertyInstance
+                      Id="85cd529f-c2f1-44b7-b7c2-4c2848ee1ebd"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18d576dc-504a-4407-b4c0-2bdb8e55b943">
+                    <propertyInstance
+                      Id="ea1ecde5-6b06-49f6-8976-5279f0d8c1d7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80691ae0-1889-433c-b4e4-a3a0f3d8198c">
+                    <propertyInstance
+                      Id="2d279279-ce21-4573-aa62-c77c47380c8a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df88195a-8f9c-4bfe-9ef6-db0c98901f8c">
+                    <propertyInstance
+                      Id="d4211e01-52b9-4908-a1c8-09bfb77fb0cd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c4de090-8d0b-45b6-bc8a-9913b37687f9">
+                    <propertyInstance
+                      Id="cc376d6a-3971-4472-852b-532ccaebeb9b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a22ca9a-68de-42bc-a900-a52db09ae6eb">
+                    <propertyInstance
+                      Id="432173a3-43cc-4a2e-bbec-8af73bcb4aad"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6f444b90-2970-416e-bb43-2345b337ecfc"
+            name="Path"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="19f4c01d-94c8-4b62-890a-11b9b63d81f7"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile Member%3DPath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2a3795d5-a78a-4727-a4d0-69554679ef0d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a534bc39-afc5-4614-9535-6bbc3b04d61b">
+                    <propertyInstance
+                      Id="18fa9ec7-6208-4fdd-a06c-f9e5ba0e9216"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="789f833b-343a-4862-b1f5-c69f9834dec2">
+                    <propertyInstance
+                      Id="5d269368-7524-4542-9212-27301feda21a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="045d1893-178c-4a3d-973e-29c6ec7dbd94">
+                    <propertyInstance
+                      Id="204bf1e3-1477-426d-a15e-bfaf13dfcf35"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee11132-c0d4-4675-9aa8-a1adaff3df7a">
+                    <propertyInstance
+                      Id="55ea1a37-e0ee-4277-bacf-f5d975b41294"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99f026f5-f63b-4cec-8ad6-ae17d917cc00">
+                    <propertyInstance
+                      Id="ca2448ca-bbfd-4f3c-bd78-83c1ba0a832e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b11dee1-b638-4cab-97dd-93b7deb44ecf">
+                    <propertyInstance
+                      Id="3e4eb50f-0075-4e0d-8da8-3bd7ad9f2e28"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aee2a0e1-fb99-4c71-a813-dcffc2fce8b4">
+                    <propertyInstance
+                      Id="7b467c29-adac-4ceb-825f-4e53c3ce5c34"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5a8dd083-f926-49c4-8b8a-9f5c52d5de2c"
+            name="Title"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d7e50ed8-6166-4303-991c-0dccdeafadbb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile Member%3DTitle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae16c4fb-29a2-498c-a098-3a60f637f919"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e74b2a72-92b0-4a42-8fe9-6f10410258b2">
+                    <propertyInstance
+                      Id="508d79b0-b704-4fa5-9f4d-78fb1f0c0174"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eeb86334-39c6-4302-ac0f-2b39a6860c9d">
+                    <propertyInstance
+                      Id="729928a1-6f14-4e23-844a-b7c7d005437c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a86b81d7-64d2-4391-82cb-3aea24c815b6">
+                    <propertyInstance
+                      Id="8425f75d-b90b-426e-b41c-c929dee70c93"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8610b50c-20da-42b4-b7d1-bfe1ca69bff8">
+                    <propertyInstance
+                      Id="fbcb598e-60c0-460d-b295-54d7074d119d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18527e05-4b7b-4f33-abf6-a4e8f73bd3bf">
+                    <propertyInstance
+                      Id="d869f436-85bf-48a5-973b-282ff13387c5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c812f3a-07e9-4d90-a2dd-952d1000bab2">
+                    <propertyInstance
+                      Id="58dbb08e-6a27-430a-95e6-29166b0aceca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a51cd6-aa6e-4613-b551-f4f831d9e719">
+                    <propertyInstance
+                      Id="70e0c5ee-72ae-4425-8876-57efa3cb7cdf"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ec153424-c464-4afa-9a63-b0ee17211d33"
+            name="RecentFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="218d9d73-4e3c-4baa-b232-cb2421a875d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0b66f6b-5d19-426c-bd95-759e37bdac41"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ae22e56-0923-4176-bd67-cc7237cca0f1">
+                    <propertyInstance
+                      Id="67562aef-9ba0-4a58-81d7-80ce5fd35e7d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a12cdb9a-7698-4d90-9349-134840e4d673">
+                    <propertyInstance
+                      Id="6afc5d20-c0a8-43a3-ab4a-0f97a1733371"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d3a1b4-af1b-40f0-8783-e19ac8268f83">
+                    <propertyInstance
+                      Id="51ddc5a2-65e8-43e1-8f56-7177c5bd9364"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88e85c1b-61fb-457e-87c6-390729a0d73d">
+                    <propertyInstance
+                      Id="2224f541-6fe1-4c44-818f-30dc77f867a1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5428b8e-3174-4c1a-b001-cb189d3bfafb">
+                    <propertyInstance
+                      Id="f7d42e44-cfeb-4660-ad33-52f87cb1c7b1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8e1026c-b3da-4672-8976-61d6040451e1">
+                    <propertyInstance
+                      Id="9a144762-6b62-4a1b-b1f8-75fe350374c0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="778df0da-3789-440e-b5f0-71ee3c80ff4a"
+        name="DatabaseWorker"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="02113357-3f3c-4458-9148-6be438e7ffb0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fc5f8b83-e9ce-48b3-896a-7643901957dd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe60f315-d925-4414-afab-1a0e866939e1">
+                <propertyInstance
+                  Id="b9e73b4a-997d-4831-94d0-7bc9ec532bc4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab6c0d6d-bca4-486f-b63b-1126a9b288e1">
+                <propertyInstance
+                  Id="1e7fb45e-8369-40f6-b93a-1fa97408d667"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a265e6d6-a6e1-4d64-aeef-b2d6b57156f7">
+                <propertyInstance
+                  Id="e6711774-10ea-4cc0-a714-ccab4332b44f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="465c8bbc-a900-44d6-8a26-5313cf9f07e3">
+                <propertyInstance
+                  Id="13762665-c92a-4950-9cc4-1d665d0b7164"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69be984c-d0dc-4915-bbe5-bcf6bc19d76c">
+                <propertyInstance
+                  Id="c8b9aff0-0fa5-482a-a684-7a99ec3004f5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="16ad2823-e11a-4edc-8951-eecf38e656a6">
+            <classMoniker
+              Id="dd092521-dbda-4ee4-a9ee-40e543eb9dc3"
+              LastKnownName="RecentFile"
+              LastKnownLocation="Package2_1608.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="98cf3990-8e97-4ede-a3bd-b3a46fcc2d5a"
+            name="_recentFilesCount"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="424c9a52-7839-41fb-a929-cf052757e75b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D_recentFilesCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ccbf57ec-56d6-49ce-b41e-dd717f517e8b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d42a075-0b1c-4797-98f6-d5d8be7b0294">
+                    <propertyInstance
+                      Id="b462bf55-b41f-485f-b6b7-01462c7af003"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2629251-9330-4700-a250-f59625f7102b">
+                    <propertyInstance
+                      Id="d8af2b89-6044-4e7e-877a-be1273d5090f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e07082f-dc4d-4cea-9ef3-1cc94a6868af">
+                    <propertyInstance
+                      Id="7e3debec-071d-4152-92e8-cbeb1d596e4a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="101d8217-f9da-4998-91c0-ff3fdaacb469">
+                    <propertyInstance
+                      Id="564903ad-b50f-466f-b5e9-f9d672d65588"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d22689-8d5d-4202-9499-760c7b9603e7">
+                    <propertyInstance
+                      Id="04007df9-d394-4d77-bebd-3cc6b70be292"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4023e070-d8ee-4826-a322-38a90a6bb4ac"
+            name="sqlConn"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0cf2946a-63c5-4dd6-8de6-5c1b675ea9ea"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3DsqlConn"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="daa1c6b7-9e6e-4f15-bb6d-6442350f46fc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="406a0a04-3e31-47c6-ad30-e82ba12ee34b">
+                    <propertyInstance
+                      Id="0e730f7a-d3a4-4d1a-a766-834245dca761"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b16c165a-32c5-4bd4-be74-f13cf1d3f16a">
+                    <propertyInstance
+                      Id="60aec0b2-c75c-4ca3-83db-f0b470c248cb"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bfd37a0-bdae-4003-940e-75758700239d">
+                    <propertyInstance
+                      Id="9ae0287c-d3ed-4df9-a184-493e028f0366"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6788af1d-92a3-44b4-8f34-8ae91fe8afd9">
+                    <propertyInstance
+                      Id="0e770728-6fa9-4c26-bc68-b3ce93082d3a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83a5175e-ad02-474b-b4a6-4c9c10178318">
+                    <propertyInstance
+                      Id="238a5bd2-7896-4ea8-a471-25467faa8ee6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4fb819e6-fdc8-4f16-ba1c-3738d5d37fe4"
+                LastKnownName="SQLiteConnection"
+                LastKnownLocation="Package6_1608.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="deb4fdf1-d938-4972-8c5f-7e2e55c6da44"
+            name="sqlFolder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9214cccd-8132-48c4-940a-266423ca9fbb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3DsqlFolder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bfe78ccd-0f57-4b60-af90-f027bc59c3db"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a27b0995-137d-4d6e-881e-091119a3ecfd">
+                    <propertyInstance
+                      Id="930354c0-993d-405f-9e77-b32403db1d1d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d8574cc-816f-4e3e-b0a9-e7f5d8e361fc">
+                    <propertyInstance
+                      Id="ff800d2f-809c-480d-9035-210693ba4e8e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="143816a4-b8e8-460a-9aac-418d5c553794">
+                    <propertyInstance
+                      Id="5f3b26bb-530d-4c99-991b-083ae812ce32"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5463edfa-d601-4e68-8c4d-9dc359fe6314">
+                    <propertyInstance
+                      Id="61c2f2f9-d849-4537-af3f-071e6d79a6c3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="483be890-6e28-430e-b37a-34423e41228b">
+                    <propertyInstance
+                      Id="799d999c-775f-4e77-9188-faadace39f3c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a72e2e51-9b80-4789-a61a-4a81453aa87c"
+            name="DatabaseWorker"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b6228924-fa95-4f64-99bb-5a1351a3e1ce"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="344c6fc3-2a60-463e-aaf6-30c2c050b708"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4539d3d-f30e-4feb-8895-512c796e6e59">
+                    <propertyInstance
+                      Id="80dda9ee-70f5-4352-90db-a6f322e6ae3b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="646a6df9-52b8-490f-a45f-1eae52910ce1">
+                    <propertyInstance
+                      Id="dc257e1f-1e30-45f2-8674-d340ec871439"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb0ff0d5-7364-4efa-a5ad-e7765946e160">
+                    <propertyInstance
+                      Id="4628f95e-fb29-4ea4-b8cb-80ad27588b2f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dabfcab2-ef11-4ceb-a60b-409162a37c89">
+                    <propertyInstance
+                      Id="3f722ca7-1f93-45f8-a9e2-90b89183eea9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d70063c-4690-4502-9764-7a985b6cbe2a">
+                    <propertyInstance
+                      Id="efd21cf6-caf2-4e2b-a8c5-7c055dde61a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d1df332-709f-414e-b4d2-8446ed8960c8">
+                    <propertyInstance
+                      Id="1b67fad7-7969-445a-b492-a35c02c9a1d6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9c3a1989-ff32-49cc-aa88-b9e0d31152a1"
+                  name="recentFilesCount"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b78848ae-074c-4ea6-a4fa-ba258554b1c5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DrecentFilesCount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="830c4554-3c54-46f6-8396-23ef72f23d0a"
+            name="AddRecentFilePath"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="06728980-c21e-40fe-a281-6f1dd6a0afa1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3DAddRecentFilePath OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4015a312-a101-452e-95bc-fd6d12d6ac18"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81b49d04-2cbf-4059-ab6d-fcf666b61ba2">
+                    <propertyInstance
+                      Id="71fd13df-c937-470e-af43-f238a5daf615"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edbc9e83-9b83-44dc-a64f-d7749e5b6b03">
+                    <propertyInstance
+                      Id="c95db4ff-1298-439c-80b5-7e9961a4a523"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7424833-2c12-4763-91af-3d730c4d15b0">
+                    <propertyInstance
+                      Id="7e474e57-299a-4797-8f72-d93c81e27420"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="265b5401-e14a-4c5f-bca3-284b0422f359">
+                    <propertyInstance
+                      Id="a148de7c-4832-46ef-b662-57078559088c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee63b849-5ef2-4843-a111-86fd5bcaba2b">
+                    <propertyInstance
+                      Id="1816d101-8129-48e0-a2e7-1cf6c1ca6e42"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5b4325b-2db2-4ab2-bae0-c643fcb1668b">
+                    <propertyInstance
+                      Id="f04e7a7f-f81b-407a-b965-b879170832e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30b64eeb-c275-4489-afec-1e07fa16b0e6"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="996cf8ec-43e0-4793-8c80-cdb85720b182"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3DAddRecentFilePath OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6f1b93d9-887d-4188-b727-b26e9345f3c5"
+            name="SaveRecentFilesPath"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3855cf1-8344-482c-a1d7-2523375b31cc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3DSaveRecentFilesPath OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a80f287c-d859-4183-9b05-549eecb16216"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff1eec1d-0400-49b0-b512-d0cefc60f281">
+                    <propertyInstance
+                      Id="6b84c0a9-3e22-4b74-86a7-7d75b4916280"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b40ac4e-0bec-4703-ad9b-a710bff7f6e7">
+                    <propertyInstance
+                      Id="8cfc8836-9aa2-4b76-ba1e-3589318ea5ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3898495-da85-4a89-a9a4-38f866aa1fa0">
+                    <propertyInstance
+                      Id="ca44b830-9e7f-457a-a772-e3b479692088"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae4b5d33-3ae4-4deb-94e7-2e0a24c31c38">
+                    <propertyInstance
+                      Id="cfdec364-2fa8-4c9b-8b54-c47145bc1836"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b23116cb-d4d1-45be-bf11-2d11d3eea751">
+                    <propertyInstance
+                      Id="cef043f1-de90-43f1-83e9-0aa7f3c85311"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8db7fec9-ff3d-4426-81cc-74adc6321786">
+                    <propertyInstance
+                      Id="b445d031-089d-40e2-96e2-7decacdd4cf3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="25ede681-66f6-42f6-aeb4-4dbb6084adba"
+                  name="resentFilesPathList"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="21c73dc9-d7c6-411e-95fd-a74f0c9f3008"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3D(Name%3DSaveRecentFilesPath OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile)]))]) ParameterIdentifier%3DresentFilesPathList"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca7c2e31-cac2-461e-9570-9b60b34a9111"
+                      LastKnownName="List&lt;RecentFile‎&gt;"
+                      LastKnownLocation="Package5_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6cd02ff5-cb60-4710-a260-224e2ca4bdb3"
+            name="LoadRecentFilesPath"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8babf63c-3d49-42a5-bd78-bc2c17fdf806"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DDatabaseWorker Member%3DLoadRecentFilesPath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="623686f4-8e33-4e04-9857-a7e87e4f5107"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12ff9ee6-cb77-4a97-bd2c-decbc6731fff">
+                    <propertyInstance
+                      Id="22e26e11-31cd-4a41-846a-5a27683c3de0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bacfee93-0d50-454e-95b0-760dd2209c87">
+                    <propertyInstance
+                      Id="a8712292-cb08-4791-84de-5d93c7baea64"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb7bf4f1-a895-4237-9a39-13c2189b78ac">
+                    <propertyInstance
+                      Id="4c0a6343-d8a4-4c68-9f90-0b03aac979ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c7f6bc0-e473-45e4-bab2-ca9bd5955e17">
+                    <propertyInstance
+                      Id="beb9dc7b-140d-4d78-9807-8c342236b33e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9feb40b-779a-4678-8778-20d65f16b65e">
+                    <propertyInstance
+                      Id="cf4d0e9b-d64a-4f5b-98db-f36b2e98fb02"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d20a96e-9c41-41ab-b477-6fc3d73d6a0d">
+                    <propertyInstance
+                      Id="5977f160-20e8-4e37-bbe8-c2aaa92c5289"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b23e899a-d128-449c-9f0b-b2afd0df3a3a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca7c2e31-cac2-461e-9570-9b60b34a9111"
+                      LastKnownName="List&lt;RecentFile‎&gt;"
+                      LastKnownLocation="Package5_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="580429b3-88c4-4246-bf74-2da5110d8cab"
+        name="RecentFileAdapter"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="781c9baf-44b3-414a-bf3d-d32ff6615213"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8824625c-5239-45da-a8aa-6ce883743258"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d80367f5-2af6-42cc-9f69-538a8eefd866">
+                <propertyInstance
+                  Id="6d587509-e044-4b97-8557-899b96d02cad"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9fd788ba-5090-4bcb-a6b1-2603fae4822d">
+                <propertyInstance
+                  Id="665150be-7d8a-4383-956e-be40e7303105"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5a47e4ab-91e1-43ca-a64e-16bbf7ad34e4">
+                <propertyInstance
+                  Id="9f67f249-53b4-40f3-a7de-adda6ec14cbe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="520479a6-beb2-4348-af2d-0665fd0f62d6">
+                <propertyInstance
+                  Id="143ad3b4-28c6-4ee0-ad8f-018d21622765"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="542d0ef1-cdda-486c-a570-62be1f5d1124">
+                <propertyInstance
+                  Id="23492eee-8c02-4582-8bdc-5097ee045e8f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="06054611-ff21-4c5e-9450-8d8348951842">
+            <classMoniker
+              Id="63feda64-78ab-4d7b-af31-ae6351a0b3a4"
+              LastKnownName="RecentFileItemHolder"
+              LastKnownLocation="Package2_1608.uml" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="58b56840-bc6f-46d3-8572-adc590910d74"
+            isSubstitutable="false">
+            <classMoniker
+              Id="001c0a7c-bf02-4e80-a1f2-2c0895967815"
+              LastKnownName="ArrayAdapter&lt;RecentFile‎&gt;"
+              LastKnownLocation="Package12_1608.uml" />
+          </generalization>
+          <generalization
+            Id="7b9fcc63-465b-44e0-9d91-29f0c081c52c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="48de3be6-8adf-4ba5-89cf-11d5632a898a"
+              LastKnownName="ArrayAdapter&lt;FileSystemInfo‎&gt;"
+              LastKnownLocation="Package12_1608.uml" />
+          </generalization>
+          <generalization
+            Id="48a007fe-17ab-42a5-b3b5-41d7216be09d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c1214ea1-1e36-43f3-bdb3-fc254e1a9824"
+              LastKnownName="ArrayAdapter"
+              LastKnownLocation="Package12_1608.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3240358c-8390-44ec-bf19-bb0be4a920ce"
+            name="context"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="abd14adc-b5e0-4dd2-a8f9-63fcad09dff8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3Dcontext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10df8747-c8ef-4071-a2e5-a2a7bf34dda3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc3cfd82-cc3b-460f-9767-d6d4fb1411c5">
+                    <propertyInstance
+                      Id="582110d6-9b5d-471c-a62c-f83814c254b3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b3a4f27-556a-4b1b-95ff-c6dd063af2e1">
+                    <propertyInstance
+                      Id="e1b7ed15-9df8-406c-93bc-43ee5f924de6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a9efa11-03aa-4f0c-95f5-d776efd4f2a5">
+                    <propertyInstance
+                      Id="823a4679-f74e-4865-a8f4-c8d741765ebd"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6c49b25-ad66-4295-a6eb-87a7de9731bb">
+                    <propertyInstance
+                      Id="4ec58110-bb56-4f57-a1ad-715269ea5b4e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7924821c-7639-4dd7-bb66-541bff281894">
+                    <propertyInstance
+                      Id="7ca47de5-cbe1-4ef7-867f-8d1159d97706"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="50acd59f-c383-4137-80a0-506ec295610b"
+                LastKnownName="Context"
+                LastKnownLocation="Package9_1608.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4d1c5f16-a9b6-4286-b663-9e13784b6562"
+            name="RecentFileAdapter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de5819b7-cf36-4e47-ae78-87ebbff29675"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2fdf2157-834f-459b-8847-59aa522f5932"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91afd105-de30-4e3a-8220-1ffeade1ef45">
+                    <propertyInstance
+                      Id="94b8c9a4-572d-45c1-a6c1-1b6759dbbee9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fad8e586-8d12-43b7-a909-d5ef7fad3f5d">
+                    <propertyInstance
+                      Id="d734829e-1050-4bec-8467-e8ebf95d80d2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36bea0a-0046-4dd2-942f-b2b909099bc2">
+                    <propertyInstance
+                      Id="444d2e84-47f1-48a4-9ae0-99fb82cd0b7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a96f0098-c84d-417c-bce1-612862e16d77">
+                    <propertyInstance
+                      Id="62813309-2d0d-4eb3-bc68-63fdc9ed8c4e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cbdbb7f-c6c9-4dc7-9746-c38b5ca9838b">
+                    <propertyInstance
+                      Id="14f9a4ff-7b63-407e-80af-870bc1bb18e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1707ec65-afbf-4284-8531-b1b7e4dae517">
+                    <propertyInstance
+                      Id="40ba0db7-4305-44ac-ab8f-c0f05bd43c48"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="82d69a0d-b3c4-45ba-9d77-e97afc548765"
+                  name="c"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="da8439ab-f5b3-434e-a02d-af382fdbd861"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext)]) ParameterIdentifier%3Dc"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="50acd59f-c383-4137-80a0-506ec295610b"
+                      LastKnownName="Context"
+                      LastKnownLocation="Package9_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c3217845-ffcb-4f26-844a-50a6245c1d24"
+            name="AddRecentFilesInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="01443268-eee7-4c40-9f55-c374d7fb61e1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DAddRecentFilesInfo OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8596b928-9bf9-4009-8b09-e12a64cc2510"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dbb011a-d041-4415-a4d3-1eeddec73da0">
+                    <propertyInstance
+                      Id="05cbb35a-d19f-4750-8510-0124244bfd81"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3936d091-4484-4ad4-aa90-44ba6bbfa0d1">
+                    <propertyInstance
+                      Id="170884e1-ba16-458d-a54f-18e5aa055605"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="142a3eb1-b6a4-4ca5-af39-aba93899b1d4">
+                    <propertyInstance
+                      Id="810a6aa1-bb46-439e-a1df-c258a45f590f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffff3949-9e6e-47b7-8cc6-61a953783ee7">
+                    <propertyInstance
+                      Id="6b712113-9321-4415-939c-439667c9a435"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02372f08-2031-4ae2-964f-d914826dd249">
+                    <propertyInstance
+                      Id="13237c2a-55a8-4b0e-a045-7f4ea656ccde"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ef3cdbe-691e-4135-b1dc-bdb0b4bb6456">
+                    <propertyInstance
+                      Id="ce28c95b-2155-4ab0-a2c6-4ec0c6cdb692"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5b305ab0-4174-452f-b0e9-5628f584f399"
+                  name="fileInfo"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59c8e821-157f-40f3-a7de-af0cdf09e016"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DAddRecentFilesInfo OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DIEnumerable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFile)]))]) ParameterIdentifier%3DfileInfo"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fbd9f967-aed0-4d5c-8b42-56cab4b3a94e"
+                      LastKnownName="IEnumerable&lt;RecentFile‎&gt;"
+                      LastKnownLocation="Package5_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="90cc6788-1925-4469-b155-2247eb92d8b8"
+            name="GetView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5147ca8b-6905-44c7-ac53-40ea0cf595dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DGetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DView)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DViewGroup)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46d99df9-ce0f-4743-a603-344387af0b72"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe52728d-d86d-47b2-837d-b1036530a85c">
+                    <propertyInstance
+                      Id="12ee493a-0f2f-42b1-b558-318ef144d9d4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0776808-9e8e-4a3f-afae-56280bef8c8c">
+                    <propertyInstance
+                      Id="fb0a2684-6540-4029-8664-4b8f960d6d7e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91446af0-1323-4836-b490-b9bca812ff31">
+                    <propertyInstance
+                      Id="48912c61-d96c-4e62-b79b-151f728f0fa0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59d5fc6a-ef11-48be-a292-d2c9e3139121">
+                    <propertyInstance
+                      Id="a48d4fd2-9b7f-4161-ae9e-7bde33ea0e57"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51f1c0cd-3d6d-4251-a55d-7802701305fb">
+                    <propertyInstance
+                      Id="303bf094-064c-45bd-93de-fccfb1297314"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a341e7e1-f779-4c87-8283-f1bd62569b62">
+                    <propertyInstance
+                      Id="67bf40d1-34f4-45f8-a66f-bebb6b1455ca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f744a83-bfc6-4b69-b9ba-a69fcb5e0669"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="53da3355-0d24-4f8d-b440-6fa14a4d915b"
+                      LastKnownName="View"
+                      LastKnownLocation="Package11_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="90566a47-65d1-477f-ba7f-61178a55da36"
+                  name="position"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b416f163-d132-4d5c-a554-f184c4dbad4d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DGetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DView)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DViewGroup)]) ParameterIdentifier%3Dposition"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6274821b-7e5b-41c4-91d6-3fce0e2cd7eb"
+                  name="convertView"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2cea5f89-888b-4275-95f6-d05629e9c3c5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DGetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DView)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DViewGroup)]) ParameterIdentifier%3DconvertView"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="53da3355-0d24-4f8d-b440-6fa14a4d915b"
+                      LastKnownName="View"
+                      LastKnownLocation="Package11_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c933fbc2-a5af-491d-9d06-bf514fdee79e"
+                  name="parent"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="393fcfcc-29bd-43ca-bc86-06da0698b088"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileAdapter Member%3D(Name%3DGetView OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DView)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DViewGroup)]) ParameterIdentifier%3Dparent"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f6901cfb-f1b4-4deb-b16d-f9b9b97c009c"
+                      LastKnownName="ViewGroup"
+                      LastKnownLocation="Package11_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="63feda64-78ab-4d7b-af31-ae6351a0b3a4"
+        name="RecentFileItemHolder"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1fddce9d-1234-4b4c-a69a-e1677f4cc1bf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="23e02c0f-7385-48b3-8f9e-f7d0a95c5087"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f153e353-829c-4160-a2ed-5f2a6b0a7c66">
+                <propertyInstance
+                  Id="461a12ac-ed86-433c-a719-2dba6009e9bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f847e8e1-68f1-446b-adb5-22b7bc48bb99">
+                <propertyInstance
+                  Id="49a048d6-1692-44a7-9339-1e2847f23313"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4de38ba4-cb7c-408e-be9e-9f746dc89d48">
+                <propertyInstance
+                  Id="b74e703a-b532-4500-87a3-80e54c40af49"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="56a6b57c-45e0-4d91-8916-deb8b696fa81">
+                <propertyInstance
+                  Id="28a215d7-5506-4f6e-aa57-ffc0c55b5a4d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d07cde1c-be4a-45ac-bdab-fec848278888">
+                <propertyInstance
+                  Id="55e6b2d5-a066-4c2e-92e9-7ae8cf4fb6fc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="37360e7f-d3c1-4193-a36e-97cc10b616ac"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d86b74a2-dad8-438c-b646-1427660dcf2c"
+              LastKnownName="Object"
+              LastKnownLocation="Package18_1608.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="bc23f54e-58e6-4ddd-9b4b-898a66e6bcce"
+            isDerived="false"
+            sourceEndRoleName="RecentFileItemHolder"
+            targetEndRoleName="TextView"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3bc42b1f-0dbc-4039-8214-8080b08aadcd"
+              LastKnownName="TextView"
+              LastKnownLocation="Package12_1608.uml" />
+            <description>Свойство TextView ссылается на тип TextView.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9a722a5-6567-4827-a593-c1a551f9f24a"
+                  name="RecentFileItemHolder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="28bb5b79-f6f3-49c1-9fad-a122a6edef1d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="aec705b7-7113-41e4-be8f-de9db981efcd"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5ecdf6bd-c0b5-4ff3-9598-b3c03114fce8"
+                  name="TextView"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ccc3cb4c-1f78-45f9-aeca-ec5c6cb3b9a1"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="78382fe6-9486-4677-abfb-95ee5cb05ed7"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4ffb7e05-6881-45fa-82bf-2629aeb6ce4d"
+            name="FullPath"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="44140bd1-1512-4396-8cdf-863034e36143"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3DFullPath"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b6aba18c-e9e3-4bba-9c0c-c497f1d115f9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="942902e6-8323-43d9-b4fe-5793e8399218">
+                    <propertyInstance
+                      Id="b04d1698-3000-4420-adfd-6b97aa055dc3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="060a0f84-2f9b-48e0-9466-e5af80038a45">
+                    <propertyInstance
+                      Id="75f278c6-b466-4999-a58b-2d96bf6f02f5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98918362-b0b2-41f2-8fdf-044cc2012dab">
+                    <propertyInstance
+                      Id="d7a80046-90e6-40a2-aac6-489a7ad47779"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef992591-c16f-4fb4-8e68-4da759275e1c">
+                    <propertyInstance
+                      Id="81e7cdc0-e695-4ecb-9840-7f425a169dd3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ebd9b47-eb74-4ba6-a4df-b04e1e91d787">
+                    <propertyInstance
+                      Id="a17959c6-66bf-4ebc-bf35-68ec989fc23d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0b289c4-3892-4782-b6a6-95e500674e8b">
+                    <propertyInstance
+                      Id="2f6e723f-4f41-418c-ab52-b001707b8284"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf5a3fc7-ca98-4ed9-9c38-e04ca0edde90">
+                    <propertyInstance
+                      Id="d47ae5f0-2bf0-468d-b40b-21e1c92afd19"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0d56d2c1-60ca-49ff-8580-766042d4a765"
+            name="TextView"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1d03baee-4a61-46b9-bd62-4d29b935717e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3DTextView"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="059c98a6-b993-448b-bd16-172a216e0651"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1825bd4b-dc20-4415-b3cb-c57c088e1345">
+                    <propertyInstance
+                      Id="239582d5-a5b3-4990-857e-557d253374a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="060c85de-fa64-4495-9fa5-5d628d7b4982">
+                    <propertyInstance
+                      Id="19b54d71-5a71-400b-a552-32acda54c578"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6732460-1fc7-424d-9fe5-25eea98a2ca4">
+                    <propertyInstance
+                      Id="bc069be3-d038-48ff-be36-00a6acc69d1c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2c3cb06-7ed2-4a41-a457-8d6d8cd174e6">
+                    <propertyInstance
+                      Id="6b68d3e6-ea07-4bd7-9ad6-700610a0623e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7713a89-3205-4a15-aca0-73623a98bfad">
+                    <propertyInstance
+                      Id="fb3bdc28-262b-4059-a363-d1aaefe417b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b002a247-d676-4c28-b962-e043807874c5">
+                    <propertyInstance
+                      Id="40918dc7-b459-4ad1-900a-2b9e0424cd3c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea40bc2a-76e8-4e19-87d8-b57cdd5947d8">
+                    <propertyInstance
+                      Id="310af8be-d7ec-4f2d-96b5-d5bfa79779cd"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3bc42b1f-0dbc-4039-8214-8080b08aadcd"
+                LastKnownName="TextView"
+                LastKnownLocation="Package12_1608.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e80d5d33-0910-4706-8820-f11c469d86e4"
+            name="OnRecentFileClick"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="107f25ec-0f24-41c3-b530-5f309842189c"
+                handle="viewcode://./CodeSchema_Event?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3DOnRecentFileClick"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5970d1e8-21d9-4c92-a084-6e6a5b0707d1"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8567df95-bec9-4e3b-aac2-f1f956666d6e">
+                    <propertyInstance
+                      Id="606b800a-8e14-4577-9119-4f67f158bd5d"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6403bb29-1c2e-4bf4-add4-63c3390851bb">
+                    <propertyInstance
+                      Id="1e3f329e-63f2-4561-81d2-e1cca47a15d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95b8a28d-034c-47e1-a0cb-3736f54f3f77">
+                    <propertyInstance
+                      Id="515e6f5a-21d3-4a56-886b-dc3497f5429c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20722948-235a-4434-b71c-94bc8e93aff5">
+                    <propertyInstance
+                      Id="ce90e346-0fe1-4d6d-8578-f37babd96f6f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ab3a452-5f39-4592-9f9c-1631000db090">
+                    <propertyInstance
+                      Id="ea0e317e-3e5e-4653-a94e-9743a76444d2"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1c5cada3-bfcd-43a4-8dd8-ea848e420d2b"
+                LastKnownName="RecentFileClick"
+                LastKnownLocation="Package2_1608.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4274b63c-5f88-4f2b-b831-1a78e6953ed5"
+            name="RecentFileItemHolder"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ac64b5c3-5430-49bf-86f4-45f48e80bc10"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Widget Type%3DTextView)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="00e824f0-26b1-4c01-8456-757a2b38e251"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a03015d-6912-48de-af32-2a78c8291223">
+                    <propertyInstance
+                      Id="cdd126e8-0b51-4f04-ac68-709e96bd2bea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ef147d0-7184-4599-a502-d56476815d86">
+                    <propertyInstance
+                      Id="0206aefa-320b-4a53-8ce7-6b670a79156a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cabbdc3-3fec-4525-9f76-3a28d0cd2b0f">
+                    <propertyInstance
+                      Id="8b735056-8d09-419c-a78c-de4b519887e0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="055b4e7a-5327-48ce-ba84-dca9382f98bd">
+                    <propertyInstance
+                      Id="e0dfb3f9-5e59-4e20-9041-686e653aef65"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31f2e361-e9c3-4161-ab80-5c725f26478c">
+                    <propertyInstance
+                      Id="6c216eb8-10a3-4f40-8f0f-c53839135198"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80575e38-6e85-4ce0-99fa-dd437859370f">
+                    <propertyInstance
+                      Id="aa7c1135-f909-4086-a9bf-7235424f561e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f374925-24dd-433e-9529-0d691540ed64"
+                  name="textView"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8312fcb1-5bf7-4546-aa7f-9617d4f1b576"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Widget Type%3DTextView)]) ParameterIdentifier%3DtextView"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3bc42b1f-0dbc-4039-8214-8080b08aadcd"
+                      LastKnownName="TextView"
+                      LastKnownLocation="Package12_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b0a3f1d5-881a-456f-be09-3e45eb51987c"
+            name="OpenFile"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aa12dafd-3e84-42f8-8cb4-d39f30a7aebb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DOpenFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2818bd3b-033d-4e5d-a743-73dc6392091e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d285d7c5-da5d-4d64-9714-5d5377591889">
+                    <propertyInstance
+                      Id="cc59d3c4-aeb5-47ec-a2d7-6e4889382222"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0379944-2664-4f10-8e16-507f3189aaff">
+                    <propertyInstance
+                      Id="2216c903-f76a-4ae3-abc9-e3c676ee4314"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9a3c334-a9f6-4dac-819e-d91c48dbebbd">
+                    <propertyInstance
+                      Id="289004d1-fb27-4896-8483-8f2099bb2363"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ff3251f-10ce-4711-bb99-7ab337e17d9f">
+                    <propertyInstance
+                      Id="335823d4-29e3-4f12-918b-a72c5362dcbf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e6cddc5-f644-416c-a176-b0a8b943e386">
+                    <propertyInstance
+                      Id="f1e7bdef-2d03-47ed-b20b-5750f16e9c02"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71bd524f-9e22-4d37-a181-353b652ddb6c">
+                    <propertyInstance
+                      Id="c2ba8285-da77-4d67-afc0-e9c13100c18b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5d878413-073c-48ec-97ba-12959d3d022a"
+                  name="o"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="90c5ac2a-9594-494f-b685-efd41bca044f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DOpenFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Do"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="366f8c3b-83bd-46a4-96f8-9f87dd59f04f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02f5537a-51cd-4070-a342-27c7e2d30ce8"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b4bb8f36-2868-4033-9a0c-7d8fd97dad9a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DOpenFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="517a224c-20b3-49f7-8a8c-f454e4cca77a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1608.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9eaed91a-f3d8-483b-8a2e-f0075c4483a4"
+            name="Update"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c2c2b363-091d-4449-aefc-8c54d0260387"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90ebd480-9405-46f3-9e1d-9cf186545aef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="237e6954-63a5-447f-b62d-d2bf553eebed">
+                    <propertyInstance
+                      Id="0ae29f50-8a73-4702-a0d4-da6ee4bf5a94"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c97b02a6-7d0c-4f59-84f3-ea0a6d52c35c">
+                    <propertyInstance
+                      Id="eb843ce2-5767-48e2-9fea-92c9be928a3b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6d0e209-2ca2-495b-b010-cad1ed1e7af3">
+                    <propertyInstance
+                      Id="5c17810a-3a94-4a7f-86c6-de1369186580"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5c3c8c3-26c3-4f9e-a60b-c1a66ee40700">
+                    <propertyInstance
+                      Id="31ae6afc-de75-4081-872b-01c566174ad1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e84e9bd-6c50-43e3-814d-d4ac5a0df7a7">
+                    <propertyInstance
+                      Id="e58c8e75-6cbb-4a45-9da1-e68bfb1885bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f74163c6-bbe9-47f8-81f2-d9e8cd57aeb4">
+                    <propertyInstance
+                      Id="692aecb5-f0b4-4a21-b5cc-53e0609a5ef2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b2d7c047-c109-45e6-b7b9-9daf69a3aeec"
+                  name="fileName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="854ae085-f8f5-492f-9541-8d3436110f68"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DfileName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c6c3aaca-2397-4704-9983-bebd7be9475e"
+                  name="fullPath"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="aceac2aa-0e0b-459e-aa12-1c792b6e8819"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3DRecentFileItemHolder Member%3D(Name%3DUpdate OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv1.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DfullPath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1c5cada3-bfcd-43a4-8dd8-ea848e420d2b"
+        name="RecentFileClick"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="880842d2-e4be-45e3-80dc-3b9faa0df31a"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Namespace%3DMusicXMLViewer.Android.RecentFileList Type%3D(Name%3DRecentFileClick ParentType%3DRecentFileItemHolder)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c11c6ce0-e46f-44f8-b709-6929aad8d192"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99d3dceb-e79a-4aed-a33d-7064dc36dd17">
+                <propertyInstance
+                  Id="c96a4d01-576e-4f5f-9f93-5b7532b5d499"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="abd94f81-24ec-448e-bbfa-e102a4f1f6f7">
+                <propertyInstance
+                  Id="98a9dda4-9fee-47ef-a569-bc5693b770f3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a29b7fc4-c636-4110-ae60-8141089a24b4">
+                <propertyInstance
+                  Id="994b3c7b-a72b-4326-9097-6d710e15d4ac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

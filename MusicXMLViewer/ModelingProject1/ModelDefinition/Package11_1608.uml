@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="91e0ed69-dd13-4dda-92a2-f750448e42cb"
+  name="Views"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="71e61dab-7ac6-48ae-9171-3d3148bad958"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAndroid.Views"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="53da3355-0d24-4f8d-b440-6fa14a4d915b"
+        name="View"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4966ac0d-aa92-4d16-87fc-c65ff6cddb3b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="972d0aee-5461-49f1-be73-08232c9db3a1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d87d7701-4f82-4d63-8355-c4f0361d9eae">
+                <propertyInstance
+                  Id="2e469eb9-b644-42fb-811b-3c0ae4780e08"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="709525c8-6209-45e8-889d-597ffd433fd4">
+                <propertyInstance
+                  Id="6fdbd3a2-3c68-47f5-a4be-73624a70a515"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49d73552-9f07-4976-a6a9-0b2d21380e5f">
+                <propertyInstance
+                  Id="f88aed30-5acf-4235-88ed-f4afc7dcf7f8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c9777fd-1861-432f-b94e-58dd6316ef69">
+                <propertyInstance
+                  Id="f00acd80-3168-40e8-af67-caaeafc97861"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00f103d2-a62a-4fe7-9253-737b068e2101">
+                <propertyInstance
+                  Id="3b4ad8b5-1af8-4962-9c2c-6c09d7765aec"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="39a6e510-4a09-4be8-ad5c-0f6aac9a81ab"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d86b74a2-dad8-438c-b646-1427660dcf2c"
+              LastKnownName="Object"
+              LastKnownLocation="Package18_1608.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f6901cfb-f1b4-4deb-b16d-f9b9b97c009c"
+        name="ViewGroup"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d04eb6ea-1547-475a-ac9e-307911d70201"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DViewGroup"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="21b3ff59-c7f7-4075-af05-12b7b49cdaa6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2db8817d-0c7e-498b-b0cc-6d38a27a4051">
+                <propertyInstance
+                  Id="e7d88177-a694-4905-9f0e-7d7c208ce407"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d74e008-52ae-4724-b5af-200e25f6a81d">
+                <propertyInstance
+                  Id="c396464d-e08f-456e-ab1d-2c5a02549872"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b4355183-e0d6-449d-87ab-f60d7bd6826d">
+                <propertyInstance
+                  Id="e6227602-830a-4857-88d1-3083390a70bd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e4317db-283e-460c-b97e-561af35f3506">
+                <propertyInstance
+                  Id="76315aac-e8c8-41fb-aa76-cebca97b812f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab580ab9-b572-458f-9bea-b9384af0eb94">
+                <propertyInstance
+                  Id="501a1b6e-7da9-4bc0-bbc6-4b1aa3a60048"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="de8c72c6-42e4-46b2-8697-b519b6b90189"
+            isSubstitutable="false">
+            <classMoniker
+              Id="53da3355-0d24-4f8d-b440-6fa14a4d915b"
+              LastKnownName="View"
+              LastKnownLocation="Package11_1608.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="47f6ff84-8491-49d2-bc13-65c277ffbac6"
+        name="IMenuItem"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="cb09df76-25a1-4e3a-82e3-249d8610df1c"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DIMenuItem"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7851fd94-3d3d-419c-9c29-df65a581692f"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1841b00-a343-4acf-b058-7a699c9be6b0">
+                <propertyInstance
+                  Id="a3334f2d-07f5-4ccc-9701-dd02dcc1ba5f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="161bb037-b09b-4ac0-ae7b-cadfcdd77619">
+                <propertyInstance
+                  Id="45779882-a831-45b3-bcaa-bbec9d471491"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7aa09730-4738-41bd-a0a6-c24764431b0c">
+                <propertyInstance
+                  Id="f2f2e3c1-e413-48ea-a4b5-e9b1cdc5000c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="927350f2-8f01-410e-808d-39c2edb3ef97">
+                <propertyInstance
+                  Id="8919cbe2-8d8a-4652-9bc1-3115c3212e74"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="668d4406-34cb-4793-80d8-24d2baa7af3d"
+        name="LayoutInflater"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5da74eaf-7ade-48ad-ba48-cacf7799723b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Views Type%3DLayoutInflater"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d161d34a-7dad-4ab0-bd90-ffdf26f5d406"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9999c1c-24b0-487b-b643-70816c300a3a">
+                <propertyInstance
+                  Id="abf782d1-77f7-40d7-bbe4-2c7db642d98e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70b7da42-ec73-4a1b-9163-3b28865453ac">
+                <propertyInstance
+                  Id="330f0631-4190-4348-a308-c0a1cf027009"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="567bd59d-d243-40d9-83cb-736f573e55ae">
+                <propertyInstance
+                  Id="ef3f406e-586a-4c54-8ae5-c7742228171b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a14ec0d-e975-48fb-9031-6455188920ac">
+                <propertyInstance
+                  Id="6d019d67-e721-4a86-9807-617311fa410c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18a9800f-aafe-4ac0-bdcc-1dfd4d49d69e">
+                <propertyInstance
+                  Id="4e53bf20-97e4-412a-a905-b0a47ed4fea9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="a83f5817-a323-4296-a0d0-47a7ed8e03c4"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d86b74a2-dad8-438c-b646-1427660dcf2c"
+              LastKnownName="Object"
+              LastKnownLocation="Package18_1608.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

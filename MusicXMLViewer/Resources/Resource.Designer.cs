@@ -43,6 +43,34 @@ namespace MusicXMLViewer.Android
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int my_accent = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int my_primary = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int my_statusbar = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int my_textcolor = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int my_textdark = 2131034116;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -71,41 +99,56 @@ namespace MusicXMLViewer.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050009
-			public const int button2 = 2131034121;
+			// aapt resource value: 0x7f08000a
+			public const int RelativeLayout1 = 2131230730;
 			
-			// aapt resource value: 0x7f050001
-			public const int details = 2131034113;
+			// aapt resource value: 0x7f08000c
+			public const int button2 = 2131230732;
 			
-			// aapt resource value: 0x7f050000
-			public const int file_list_fragment = 2131034112;
+			// aapt resource value: 0x7f080001
+			public const int details = 2131230721;
 			
-			// aapt resource value: 0x7f050003
-			public const int file_picker_image = 2131034115;
+			// aapt resource value: 0x7f080000
+			public const int file_list_fragment = 2131230720;
 			
-			// aapt resource value: 0x7f050004
-			public const int file_picker_text = 2131034116;
+			// aapt resource value: 0x7f080003
+			public const int file_picker_image = 2131230723;
 			
-			// aapt resource value: 0x7f05000a
-			public const int gridViewRecentFiles = 2131034122;
+			// aapt resource value: 0x7f080004
+			public const int file_picker_text = 2131230724;
 			
-			// aapt resource value: 0x7f050005
-			public const int notationLayout = 2131034117;
+			// aapt resource value: 0x7f08000d
+			public const int gridViewRecentFiles = 2131230733;
 			
-			// aapt resource value: 0x7f050007
-			public const int progressBarFileOpening = 2131034119;
+			// aapt resource value: 0x7f080010
+			public const int menuItem = 2131230736;
 			
-			// aapt resource value: 0x7f050006
-			public const int progressLayout = 2131034118;
+			// aapt resource value: 0x7f080005
+			public const int notationLayout = 2131230725;
 			
-			// aapt resource value: 0x7f050008
-			public const int textViewLoading = 2131034120;
+			// aapt resource value: 0x7f080009
+			public const int pager = 2131230729;
 			
-			// aapt resource value: 0x7f05000b
-			public const int textViewRecentFile = 2131034123;
+			// aapt resource value: 0x7f080007
+			public const int progressBarFileOpening = 2131230727;
 			
-			// aapt resource value: 0x7f050002
-			public const int titles_fragment = 2131034114;
+			// aapt resource value: 0x7f080006
+			public const int progressLayout = 2131230726;
+			
+			// aapt resource value: 0x7f08000f
+			public const int switchForActionBar = 2131230735;
+			
+			// aapt resource value: 0x7f080008
+			public const int textViewLoading = 2131230728;
+			
+			// aapt resource value: 0x7f08000e
+			public const int textViewRecentFile = 2131230734;
+			
+			// aapt resource value: 0x7f080002
+			public const int titles_fragment = 2131230722;
+			
+			// aapt resource value: 0x7f08000b
+			public const int viewPage = 2131230731;
 			
 			static Id()
 			{
@@ -127,10 +170,10 @@ namespace MusicXMLViewer.Android
 			public const int file_picker_list_item = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int measure = 2130903042;
+			public const int notation = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int notation = 2130903043;
+			public const int notation_page = 2130903043;
 			
 			// aapt resource value: 0x7f030004
 			public const int recent_files = 2130903044;
@@ -138,12 +181,31 @@ namespace MusicXMLViewer.Android
 			// aapt resource value: 0x7f030005
 			public const int RecentFileItem = 2130903045;
 			
+			// aapt resource value: 0x7f030006
+			public const int switcher = 2130903046;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int menu = 2131165184;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -175,6 +237,25 @@ namespace MusicXMLViewer.Android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int MyCustomTheme = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int myCustomMenuTextApearance = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

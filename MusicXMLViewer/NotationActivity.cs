@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 using Android.App;
+using Android.Content;
 using Android.Graphics;
 using Android.OS;
+using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
-using MusicXMLViewer.Android.Domain;
 using Java;
 using Java.Util.Jar;
 using MusicXMLViewer.Android.Notation;
@@ -41,7 +42,7 @@ namespace MusicXMLViewer.Android
             this.progressLayout = FindViewById<LinearLayout>(Resource.Id.progressLayout);
             this.progressLayout.Visibility = ViewStates.Gone;
 
-            //notationLayout = FindViewById<LinearLayout>(Resource.Id.notationLayout);
+
 
             try
             {
@@ -55,62 +56,63 @@ namespace MusicXMLViewer.Android
 
         }
 
+
+
+
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.menu, menu);
+            var menuItem = menu.FindItem(Resource.Id.menuItem);
+            //Switch s = FindViewById<Switch>(Resource.Id.switchForActionBar);
+
+            //s.CheckedChange += delegate(object sender, CompoundButton.CheckedChangeEventArgs e)
+            //{
+            //    var toast = Toast.MakeText(this, "Your answer is " +
+            //                                     (e.IsChecked ? "correct" : "incorrect"), ToastLength.Short);
+            //    toast.Show();
+            //};
+            return true;
+        }
+
+
         async void OpenFileAsync()
         {
-
             progressLayout.Visibility = ViewStates.Visible;
-            score = await DeserializeObjectAsync<scorepartwise>(path);
-            //score = await DeserializeObjectAsync(path);
+            var deserializer = new MusicXMLDeserializer();
+            score = await deserializer.DeserializeObjectAsync<scorepartwise>(path);
+            ActionBar.Show();
+            ActionBar.Title = score.work.worktitle;
             this.progressLayout.Visibility = ViewStates.Gone;
             DrawNotation();
         }
 
-        //private static Task<Score> DeserializeObjectAsync(string xml)
-        //{
-        //    return Task.Run(() => MusicXmlParser.GetScore(xml));
-        //}
-
-
-        private static Task<T> DeserializeObjectAsync<T>(string xml)
-        {
-            return Task.Run(() =>
-            {
-                using (var fileStream = new FileStream(xml, FileMode.Open, FileAccess.Read))
-                {
-                    using (var streamReader = new StreamReader(fileStream))
-                    {
-                        XmlSerializer serializer =
-                            new XmlSerializer(typeof(T));
-                        T theObject = (T)serializer.Deserialize(fileStream);
-                        return theObject;
-                    }
-                }
-            });
-        }
 
         void DrawNotation()
         {
-            //foreach (var part in score.Parts)
-            //{
-            //    var linLayout = new LinearLayout(this);
-            //    linLayout.Orientation = Orientation.Horizontal;
-            //    linLayout.SetMinimumHeight(50);
+            LayoutInflater inflater = LayoutInflater.From(this);
+            List<View> pages = new List<View>();
 
-            //    var measures = new List<View>();
-            //    foreach (var measure in part.Measures)
-            //    {
-            //        var measureLayout = new View(this);
-            //        measureLayout.SetMinimumWidth(measure.Width);
-            //        measureLayout.SetBackgroundColor(new Color(255, 0, 0));
-            //        measures.Add(measureLayout);
-            //    }
 
-            //    notationLayout.AddChildrenForAccessibility(measures);
-            //}
 
-            var scoreDrawer = new ScoreDrawer(this, score);
-            scoreDrawer.HorizontalScrollBarEnabled = true;
-            SetContentView(scoreDrawer);
+            var page = new ScorePageView(this, score);
+            pages.Add(page);
+
+            MyPagerAdapter pagerAdapter = new MyPagerAdapter(pages);
+            var viewPager = new ViewPager(this);
+            viewPager.Adapter = pagerAdapter;
+            viewPager.CurrentItem = 0;     
+
+            SetContentView(viewPager);
+        }
+
+        int GetScoreMeasureCount()
+        {
+            if (score.part.Length != 0)
+            {
+                return score.part[0].measure.Length;
+            }
+            return 0;
         }
     }
 }

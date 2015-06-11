@@ -6,9 +6,9 @@ using Android.Widget;
 
 namespace MusicXMLViewer.Android.Notation
 {
-    class ScoreDrawer : ScrollView
+    class ScorePageView : View
     {
-        public ScoreDrawer(Context context, scorepartwise score)
+        public ScorePageView(Context context, scorepartwise score)
             : base(context)
         {
             this.score = score;

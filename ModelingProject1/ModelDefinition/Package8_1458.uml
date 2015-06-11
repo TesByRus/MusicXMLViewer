@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7e10a14e-e298-4d52-970b-b1903349637b"
+  name="Android"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9ccb49a7-418c-441b-bc70-6f6cd8e5a491"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAndroid"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="40a66f2e-e829-428d-a448-c4e443edfe46"
+        LastKnownName="Content"
+        LastKnownLocation="Package9_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2ab5acca-ffa7-4451-b42b-f7cb4113b3c0"
+        LastKnownName="Views"
+        LastKnownLocation="Package11_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e8564605-5b74-4ec2-b4ed-3415508521d0"
+        LastKnownName="Widget"
+        LastKnownLocation="Package12_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c74e3b0a-f5c1-42fb-bd39-6010a4e50abe"
+        LastKnownName="OS"
+        LastKnownLocation="Package13_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="14f1e68c-0de0-4591-8d63-4c1e403bc4ca"
+        LastKnownName="Support"
+        LastKnownLocation="Package14_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="08a4d517-5b99-4b59-8670-7582a4dafdb0"
+        LastKnownName="App"
+        LastKnownLocation="Package21_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="fb0b6c24-6248-4166-ad23-b4a62237b1d7"
+        LastKnownName="Graphics"
+        LastKnownLocation="Package25_1458.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

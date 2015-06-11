@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e9dbc92e-58e4-4e56-816d-0d3bb68584ac"
+  name="Content"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5f7c61bb-d44b-4fa4-b47c-05a09ae68f03"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAndroid.Content"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="50acd59f-c383-4137-80a0-506ec295610b"
+        name="Context"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ddbae7f7-930b-4d40-a048-b947c74de52c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2FMonoAndroid%2Fv5.0%2FMono.Android.dll&quot; Namespace%3DAndroid.Content Type%3DContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="35e8b5d6-9580-4142-a919-bbd535e3adeb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52f0a309-28e4-4353-a507-e613977d345f">
+                <propertyInstance
+                  Id="4ce6aa96-a772-4d39-ad2e-72cfa52eedff"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b5d6593-9c5f-43f4-9aa3-23474192e391">
+                <propertyInstance
+                  Id="4105ef44-7624-4018-9ab0-3a9f38829afd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d51c9f6e-a383-43b8-bb04-24595ae1fec6">
+                <propertyInstance
+                  Id="20e4e0c5-0fe5-4c95-be08-db3fe73033f9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96caf6b2-958f-43d6-afc5-43aba860678d">
+                <propertyInstance
+                  Id="338ff8c0-0794-4560-a671-ae06a1e3e12f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6b7cd48-9e53-4d51-ac39-a1f89b5ef3bb">
+                <propertyInstance
+                  Id="b9e269c1-da0a-4af3-8864-f70cfc7e8843"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e41cfaf4-99d5-4468-93e1-8a7db4a02363"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d86b74a2-dad8-438c-b646-1427660dcf2c"
+              LastKnownName="Object"
+              LastKnownLocation="Package18_1608.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

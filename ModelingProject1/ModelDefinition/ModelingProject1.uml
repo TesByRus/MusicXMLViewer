@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="28e2ee06-df21-4729-8f0c-c53a4205bdfa"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="48262135-52d9-4618-8186-ba3393187745"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3D::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="04170ab5-1396-48ab-9f7e-06f0392cf5a0">
+      <profileInstance
+        Id="bfa2c953-a2a3-4bf5-89b5-2e39b7199264"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bcd09848-ce4f-493c-b382-0750b79c7bc8"
+        LastKnownName="MusicXMLViewer"
+        LastKnownLocation="Package_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="99487cee-8200-48f3-90ed-2b5eb7d27428"
+        LastKnownName="System"
+        LastKnownLocation="Package4_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ea2fb53f-1f27-4225-9489-21d5b321e2b5"
+        LastKnownName="SQLite"
+        LastKnownLocation="Package7_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7e10a14e-e298-4d52-970b-b1903349637b"
+        LastKnownName="Android"
+        LastKnownLocation="Package8_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1b7280f7-84e2-467c-a58d-de0bfe4e379b"
+        LastKnownName="Java"
+        LastKnownLocation="Package17_1458.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="375ddf31-0e40-473c-9bc2-65530cfd7518"
+        name="scorepartwise"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cd14ba75-466f-41ed-aa0c-225e16bdf34a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3Dscorepartwise"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ae3518aa-976f-45fe-8541-e51af45c51ae"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fffaecdb-ad32-47a3-9f0d-82439d285018">
+                <propertyInstance
+                  Id="b660ba1f-3222-446e-9e8a-2ccf8a5cccb5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4720c61e-d2e5-46f2-bd95-501d48ff0cbd">
+                <propertyInstance
+                  Id="c2ba8744-0664-45b7-9dd5-9bc1412785a4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e089121-1cb7-4b55-9da6-eccd283a4b56">
+                <propertyInstance
+                  Id="38190b1f-6e44-4291-b56d-db87b1556a2a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51eca31b-d278-4ed8-9d25-4101ccc4a260">
+                <propertyInstance
+                  Id="3cf25b54-41f8-4d05-a00f-b980064cf329"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8eb1098d-3405-43fb-95b8-380cb38aba97">
+                <propertyInstance
+                  Id="7fa329d1-e042-4dc4-83d0-27538aee269c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b7b9e39d-17b3-4370-a52a-a4b36c81f3da"
+        name="scorepartwisePart"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8864f148-3728-40b1-a930-fcfd461edb18"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1be3445a-39a5-4113-a8d0-98302f3ad5ac"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="831eb3e5-4875-48d2-945b-bc8e3976b992">
+                <propertyInstance
+                  Id="0c622dc0-4d6d-41f0-8525-060afba6fb46"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="956fc3cf-ca74-49f7-9f71-22b9b2d041ab">
+                <propertyInstance
+                  Id="0a204642-341e-4713-81e5-2acd3ad3d39c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cc6d2f4-78fe-4b39-9176-02d48238e555">
+                <propertyInstance
+                  Id="b5412e90-98e9-4f6a-b300-c3602c91d1f2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49de4e56-913f-44a6-9afa-f9ce24336e59">
+                <propertyInstance
+                  Id="86418991-832e-4974-8f5a-d285c4e9b400"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c93bfdb6-389f-46da-8e0d-222b2e393fb8">
+                <propertyInstance
+                  Id="c4f4a652-6280-4726-928d-ab02a96e86fa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="6615942e-5ecc-488d-bc13-068b49afa9d6"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <lifelines>
+          <lifeline
+            Id="eb7eabdb-94b7-40f8-8cac-429d5bdd3dc7"
+            name="scorepartwise : scorepartwise"
+            isActor="false"
+            lifelineDisplayName="scorepartwise : scorepartwise">
+            <represents>
+              <propertyMoniker
+                Id="36dc6f01-cbe6-43e3-93bc-8cdff74026a7"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+          <lifeline
+            Id="853048c1-77db-47f5-912b-93f3cce678a7"
+            name="scorepartwisePart : scorepartwisePart"
+            isActor="false"
+            lifelineDisplayName="scorepartwisePart : scorepartwisePart">
+            <represents>
+              <propertyMoniker
+                Id="4de25c99-a21d-4607-815b-bf77b2fbf601"
+                LastKnownLocation="ModelingProject1.uml" />
+            </represents>
+          </lifeline>
+        </lifelines>
+        <ownedAttributesInternal>
+          <property
+            Id="36dc6f01-cbe6-43e3-93bc-8cdff74026a7"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="375ddf31-0e40-473c-9bc2-65530cfd7518"
+                LastKnownName="scorepartwise"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4de25c99-a21d-4607-815b-bf77b2fbf601"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="b7b9e39d-17b3-4370-a52a-a4b36c81f3da"
+                LastKnownName="scorepartwisePart"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2015-06-07T16:36:37" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;4052a953-d337-455c-8b1f-932aa0b15dc7&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;74d7af1c-0f08-4f12-8d00-8b51c884bda1&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;d29c06a2-a7e6-4a44-8ef6-c3bd1dcdd626&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Content&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Content::Context&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Views&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Views::View&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Views::ViewGroup&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Widget&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Widget::ArrayAdapter&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::Android::Widget::ArrayAdapter&lt;FileSystemInfo‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter&quot; -  (Class)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::_context&quot; -  (Property)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::AddDirectoryContents&quot; -  (Operation)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::AddDirectoryContents::directoryContents&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::FileListAdapter&quot; -  (Operation)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::FileListAdapter::context&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::FileListAdapter::fsi&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::GetView&quot; -  (Operation)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::GetView::convertView&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::GetView::parent&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter::GetView::position&quot; -  (Parameter)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::IEnumerable&quot; -  (Interface)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::IEnumerable&lt;FileSystemInfo‎&gt;&quot; -  (Interface)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::IList&quot; -  (Interface)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::Collections::Generic::IList&lt;FileSystemInfo‎&gt;&quot; -  (Interface)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::IO&quot; -  (Package)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;ModelingProject1::System::IO::FileSystemInfo&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter в ModelingProject1::Android::Widget::ArrayAdapter&lt;FileSystemInfo‎&gt; (Generalization)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::Android::Views::ViewGroup в ModelingProject1::Android::Views::View (Generalization)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: ModelingProject1::MusicXMLViewer::Android::FileList::FileListAdapter в ModelingProject1::Android::Widget::ArrayAdapter (Generalization)" />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="High" Text="Полностью реконструировано (1) типов." />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="High" Text="Частично реконструировано (10) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2015-06-07T16:36:39" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>

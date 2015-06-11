@@ -16,7 +16,10 @@ using Android.Content.Res;
 [assembly: Guid("a557ce8c-9dbe-4b93-8fc4-95ffc126cf14")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: Application(Theme = "@android:style/Theme.DeviceDefault.Light")]
+
+
+
+[assembly: Application(Theme = "@style/MyCustomTheme")]
 
 
 //#if DEBUG

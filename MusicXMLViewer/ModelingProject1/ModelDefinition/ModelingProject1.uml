@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9c1de30b-9272-490c-a39a-f20353470b42"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d2852d1f-57f6-491f-af49-44f807281295"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3D::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="3e0aea1d-e0b4-4c0d-8c96-71d6f0d0ce32">
+      <profileInstance
+        Id="9584dde6-53f3-405f-9f5a-72fe5e67ba1f"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="30c0cd56-09d6-472d-832a-4774bd5ae544"
+        LastKnownName="MusicXMLViewer"
+        LastKnownLocation="Package_1608.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b2ce46f1-98b2-415c-b495-fa99cc2a8e2a"
+        LastKnownName="System"
+        LastKnownLocation="Package3_1608.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e37f9ccf-023b-4264-b4cb-37cf1028ef08"
+        LastKnownName="SQLite"
+        LastKnownLocation="Package6_1608.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a2ad9c37-10a2-4c8a-80a6-3202bb476225"
+        LastKnownName="Android"
+        LastKnownLocation="Package8_1608.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="211afe8b-9eeb-4082-994c-70f45ef5779d"
+        LastKnownName="Java"
+        LastKnownLocation="Package17_1608.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9836a674-cfaa-46e6-8290-3452ad9ef3e9"
+        name="scorepartwise"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f194af82-e776-40e0-8910-fae40f4edde9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3Dscorepartwise"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8db796ed-c26c-4bb9-bd9a-4f31943904b9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="354fc2a9-d995-4e06-9586-3ad6afb2599c">
+                <propertyInstance
+                  Id="78969ce1-3463-44a3-a074-231e648a495f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a442e4b2-9921-4ad9-bee5-473edfb8b30d">
+                <propertyInstance
+                  Id="078d1da0-3ecd-40a3-8c41-187a5f4044b4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="829c0e03-dc18-46e9-8cbb-3bdb8a01d8d3">
+                <propertyInstance
+                  Id="17c25a9f-41ae-4ee7-93dd-f16449b822c4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cded8232-915a-48ae-bedc-28a8386d1697">
+                <propertyInstance
+                  Id="dcfa9330-8c87-4faf-b842-785bee0a0c8d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4dbc64d2-7819-4550-a77d-c3d117c3e016">
+                <propertyInstance
+                  Id="5147d30a-33d6-4333-8848-bd5d0367feb6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c717e9cd-261d-4f1e-9d79-69fc7e61ecfc"
+        name="scorepartwisePart"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f4a11f47-4838-4a3b-bfa0-df270e17039f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FDanil%2FDocuments%2FGitHub%2FMusicXMLViewer%2FMusicXMLViewer%2Fbin%2FDebug%2FXamarinFilePickerExample.dll Type%3DscorepartwisePart"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="93d57439-249a-4e1c-a446-3743828447e1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="578e4979-a1e9-4d77-a060-34eeae8d1c71">
+                <propertyInstance
+                  Id="16c40b01-5f1f-4675-9360-039f54dbb562"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5a60908-a33a-4377-89b7-bce82b75e44d">
+                <propertyInstance
+                  Id="285d615a-d6b4-4e15-876b-d8d2fee212c6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d15ce2d-d13a-4bf1-8eb2-00617c2edaf8">
+                <propertyInstance
+                  Id="29089c39-6045-4fae-b027-05ebc3a9a363"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="177a869a-6c07-4f5c-85c9-518ebe4c78fc">
+                <propertyInstance
+                  Id="22c9d681-bdbc-4b35-88cc-29202f66f32f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbef17e2-94b4-48ed-825a-4af52edf0bdb">
+                <propertyInstance
+                  Id="21fc1e43-555f-4bc7-b5eb-4ef378c9853b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
