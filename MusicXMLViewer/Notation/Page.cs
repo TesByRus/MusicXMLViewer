@@ -14,19 +14,18 @@ namespace MusicXMLViewer.Android.Notation
 {
     class Page
     {
-        public Dictionary<List<scorepartwisePartMeasure>, List<int>> Parts { get; private set; } 
+        public int pageNumber { get; private set; }
+        public Dictionary<string, List<scorepartwisePartMeasure>> Parts { get; private set; }
 
-        public Page(scorepartwise scorepartwise)
+        public Page(int pageNumber)
         {
-            foreach (var part in scorepartwise.part)
-            {
-                Parts.Add(new List<scorepartwisePartMeasure>(part.measure), new List<int>());
-            }
+            this.pageNumber = pageNumber;
+            Parts = new Dictionary<string, List<scorepartwisePartMeasure>>();
         }
 
-        public void AddMeasures(string partId, int newPageIndex)
+        public void AddMeasures(string partId, List<scorepartwisePartMeasure> measureList)
         {
-            
+            Parts.Add(partId, measureList);
         }
     }
 }

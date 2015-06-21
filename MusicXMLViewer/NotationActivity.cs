@@ -91,12 +91,19 @@ namespace MusicXMLViewer.Android
         void DrawNotation()
         {
             LayoutInflater inflater = LayoutInflater.From(this);
+            var modScore = new ScoreModified(score);
+
+
             List<View> pages = new List<View>();
 
+            foreach (var p in modScore.Pages)
+            {
+                var page = new ScorePageView(this, p);
+                pages.Add(page);
+            }
 
 
-            var page = new ScorePageView(this, score);
-            pages.Add(page);
+
 
             MyPagerAdapter pagerAdapter = new MyPagerAdapter(pages);
             var viewPager = new ViewPager(this);

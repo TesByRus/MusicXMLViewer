@@ -8,10 +8,10 @@ namespace MusicXMLViewer.Android.Notation
 {
     class ScorePageView : View
     {
-        public ScorePageView(Context context, scorepartwise score)
+        public ScorePageView(Context context, Page page)
             : base(context)
         {
-            this.score = score;
+            this.page = page;
             _dpiCoef = 1; //(float)Resources.DisplayMetrics.DensityDpi / 254;
             paint = new Paint();
             paint.SetARGB(255, 0, 0, 0);
@@ -21,7 +21,7 @@ namespace MusicXMLViewer.Android.Notation
         }
 
 
-        private scorepartwise score;
+        private Page page;
         private Paint paint;
         private Path path;
         private const int PartHeight = 80;
@@ -35,15 +35,15 @@ namespace MusicXMLViewer.Android.Notation
         protected override void OnDraw(Canvas canvas)
         {
             int startX = paddingLeftRight, startY = 50;
-            for (var i = 0; i < score.part.Length; i++)
+            foreach (var part in page.Parts)
             {
-                DrawPart(score.part[i], canvas, startX, startY);
+                DrawPart(part.Value, canvas, startX, startY);
                 startY += PartHeight + paddingTopBot;
             }
         }
 
 
-        void DrawPart(scorepartwisePart part, Canvas canvas, int startX, int startY)
+        void DrawPart(List<scorepartwisePartMeasure> measures, Canvas canvas, int startX, int startY)
         {
 
             var clefList = new List<clef>();
@@ -51,23 +51,23 @@ namespace MusicXMLViewer.Android.Notation
                 int x = (int)(startX * _dpiCoef);
             int y = (int)(startY * _dpiCoef);
 
-            for (int i = 0; i < part.measure.Length; i++)
+            for (int i = 0; i < measures.Count; i++)
             {
 
-                float measureWidth = (float)part.measure[i].width;
+                float measureWidth = (float)measures[i].width;
 
                 var backupNum = 0;
 
 
-                DrawLines(path, x, y, (float)part.measure[i].width);
+                DrawLines(path, x, y, measureWidth);
                 canvas.DrawPath(path, paint);
-                foreach (var item in part.measure[i].Items)
+                foreach (var item in measures[i].Items)
                 {
                     if (item.GetType() == typeof(attributes)) // если атрибуты, надо отрисовать клефы
                     {
                         if (((attributes) item).staves == "2")
                         {
-                            DrawLines(path, x, y, (float)part.measure[i].width);
+                            DrawLines(path, x, y, measureWidth);
                             canvas.DrawPath(path, paint);
                         }
                         foreach (var clef in ((attributes) item).clef)
